@@ -22,8 +22,7 @@ Iga praktikumi jaoks tuleb teil vastava praktikumi lehekülje all esitada kommen
 
 Näiteks 4. praktikumi puhul "Praktikum 4 - Ressurshihaldus" tuleb praktikumi kodutöö esitada lehel [https://courses.cs.ut.ee/2022/os/fall/Main/Praktikum4](https://courses.cs.ut.ee/2022/os/fall/Main/Praktikum4). Minul on esimese praktikumi lahendus lingil https://github.com/AndresNamm/opsys_Namm/blob/main/praks4_ressurshihaldus.md, seega panen kommentaaridesse selle lingi ja vajutan esita.      
 
-![image](https://user-images.githubusercontent.com/21141607/187720746-93f573b6-97ce-4105-8fe9-865e5734f9f0.png)
-
+![image](https://user-images.githubusercontent.com/21141607/188396348-67849071-8fc1-47cb-b6a9-679685bce90f.png)
 
 Korralik lahendus sisaldab:
     + Lehekülje pealkirja
