@@ -7,7 +7,7 @@ Selleks peab teil olemas olema Githubi konto ning peate olema selle konto alla l
 
 1. Githubi konto saate luua [siit](https://github.com/join)
 2. **Privaatse** Repo loomisest räägime lähemalt [siin](https://github.com/AndresNamm/opsys_Namm/blob/main/repo_loomine.md)
-3. Kui privaatne repo on loodud, siis tuleb teil seda jagada kasutajatega: AndresNamm,alop@ut.ee,laaneoks [Juhend kuidas seda teha siin](). Need on juhendajate kontod selleks, et nad saaksid teie praktikumide kodutöösid kontrollida. 
+3. Kui privaatne repo on loodud, siis tuleb teil seda jagada oma praktikumijuhendajaga: Andres Namm: AndresNamm, Alo Peets: alop@ut.ee, Erki Laaneoks: laaneoks [Juhend kuidas seda teha siin](). Need on juhendajate kontod selleks, et nad saaksid teie praktikumide kodutöösid kontrollida. 
 4. Teil tuleb teha enda reposse ka fail README.md, kuhu panete ennast tutvustava info koos oma pildiga. 
 
 Võite minu repo endale templateks võtta. **V.A see, et minu repo on demonstratsiooniks public. Teie repod peavad olema privaatsed**
