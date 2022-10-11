@@ -8,3 +8,4 @@
 # FSTAB 
 
 + https://help.ubuntu.com/community/Fstab
++ https://www.youtube.com/watch?v=LkwZZIsY9uE
