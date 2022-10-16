@@ -6,12 +6,17 @@ installimine.
 
 # Sammude kokkuvõte
 
-1. Mis on Pilv?
+
+Sammud 1-4 saate teha ilma oma olemasoleva Windows 11 virtuaalmasinata.
+
+1. Mis on Pilv?.
 1. Tehke endale Azure'sse ülikooli kontoga kasutaja.
-2. Azure Pilves Virtuaalmasina loomine 
-3. Azure Pilves Virtuaalmasina käivitamine ja sellega ühendumine. 
-4. WSLi installimine loodud virtuaalmasina peale
-5. Kasutusjuhud WSL-ile
+2. Azure Pilves Virtuaalmasina loomine.
+3. Azure Pilves Virtuaalmasina käivitamine.
+4. Virtuaalmasinaga ühendamine.
+5. WSLi installimine loodud virtuaalmasina peale.
+6. Kasutusjuhud WSL-ile.
+7. Virtuaalmasina sulgemine.
 
 # Mis on Pilv?
 
@@ -31,7 +36,7 @@ Kasutades Googlit vastake nendele küsimustele. **PS, tehke endale vastused korr
 
 + $\color{lightblue}{\textrm{Mis on Azure Resource Group}}$
 + $\color{lightblue}{\textrm{Mis on Azure Subscription}}$
-
++ $\color{lightblue}{\textrm{Mis on Azure Resource}}$
 
 # Ülikooli kasutajaga konto loomine 
 
@@ -58,16 +63,42 @@ Kasutades Googlit vastake nendele küsimustele. **PS, tehke endale vastused korr
 
 ## VIRTUAALMASINA LOOMINE 
 
-Algselt peaks teile vastu vaatama selline vaade. Hakkame nüüd seda vaadet täitma. **PS, pildil näidatud välja on default väärtused ning meie praktikumi kontekstis tuleb need teil ära muuta** 
-![image](https://user-images.githubusercontent.com/21141607/196036453-6c3628f5-0936-4d97-a326-8059aef3dcbf.png)
+
+Virtuaalmasina loomiseks täitke ära avanenud vaade nii nagu pildil näidatud. **Asendage nimi "namm" enda perekonnanimega.** $\color{lightblue}{\textrm{Enda perekonnanimega VM on oluline prakikumi lõpus enda VMi descriptionist screenshoti esitamisel}}$
+
+![image](https://user-images.githubusercontent.com/21141607/196038492-502d97d8-3500-41d8-b334-6f9efb40c54c.png)
+![image](https://user-images.githubusercontent.com/21141607/196038509-00914b16-91fd-4f04-bfe4-dd2c428d2be3.png)
+
+Edasi vajutaga nupule: "Next: Disks"
+
++ Valige OS diskiks "Standard HDD (locally-redundant storage)"
++ Tehke linnuke väljale "Delete with VM"
+
+Edasi vajutaga nupule: "Next: Networking"
+
++ Kui seda juba tehtud pole, siis tehke linnuke väljale "Delete public IP and NIC when VM is deleted"
+
+Edasi vajutage nupule "Review + create". Edasi peaks teile tekkima akna üles roheline tekst "Validation passed". Kui nii on, siis vajutage sinisele nupule "Create". 
+
++ Virtuaalmasina loomine võtab aega kuskil 5-15 minutit. Võite nii kaua lugeda WSLi kohta https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux
+
+# Virtuaalmasina käivitamine Azure pilves
+
++ Minge lingile https://portal.azure.com/#home
+
+@Alo Peets ja @Erkki Männiste kumb variant
 
 
-1. Veenduge, et "Subscription" all on teil valitud väli "Azure for Students" 
+$\color{red}{\textrm{Lihtne variant}}$
+
++ Vajutage nupule "Resource Groups"
++ Avanenud vaates vajutage resource grupile nimega <perekonnaimin>-rg
++ Vajutage oma vm-i peale 
+  
+ 
+$\color{lightblue}{\textrm{Otsige nüüd oma VMi üldvaade ülest ja tehke sellest Screenshot nagu alloval pildil näidatud}}$
 
 
-
-
-
-
+![image](https://user-images.githubusercontent.com/21141607/196039626-da416317-6c88-48b5-b709-8e76ae112338.png)
 
  
