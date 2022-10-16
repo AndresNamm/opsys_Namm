@@ -86,10 +86,9 @@ Edasi vajutaga nupule: "Next: Networking"
 
 Edasi vajutage nupule "Review + create". Edasi peaks teile tekkima akna üles roheline tekst "Validation passed". Kui nii on, siis vajutage sinisele nupule "Create". 
 
-
++ Oluline oleks järgmisel sammul mitte praktikumi katkestada, sest vastasel juhul loob Azure VMi valmis ja paneb selle ka käima, mis põhjustab lisakulu. 
 + Virtuaalmasina loomine võtab aega kuskil 5-15 minutit. Võite nii kaua lugeda WSLi kohta https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux
-+ Oluline oleks siin sammul mitte praktikumi katkestada, sest vastasel juhul loob Azure VMi valmis ja paneb selle ka käima, mis põhjustab lisakulu. 
-+ 
+
 # Virtuaalmasina käivitamine Azure pilves
 
 + Minge lingile https://portal.azure.com/#home
