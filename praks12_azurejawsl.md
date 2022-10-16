@@ -16,7 +16,7 @@ Sammud 1-4 saate teha ilma oma olemasoleva Windows 11 virtuaalmasinata.
 3. Azure Pilves Virtuaalmasina seadistamine
 4. Virtuaalmasinaga ühendamine.
 5. WSLi installimine loodud virtuaalmasina peale.
-6. Kasutusjuhud WSL-ile.
+6. WSLi katsetamine
 7. Virtuaalmasina sulgemine.
 
 # Mis on Pilv?
