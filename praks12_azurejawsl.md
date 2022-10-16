@@ -1,7 +1,10 @@
-# SISSEJUATUS 
+# SISSEJUHATUS 
 
 Tänase praktikumi teemaks on Pilv, Azure, Azure keskkonnas Windows 11 virtuaalmasina loomine, sellega ühendumine ja sinna peale WSLi (Windows SubSystem for Linux) 
 installimine. 
+
+**Väga oluline on, et te lülitate oma pilves asuva virtuaalmasina välja iga kord pärast selle kasutamist. Vastasel juhul lõppeb teil endal tasuta kasutatav ressurss otsa ning ei ole võimalik praktikumi lõpuni teha**
+
 # Sammude kokkuvõte
 
 
@@ -10,7 +13,7 @@ Sammud 1-4 saate teha ilma oma olemasoleva Windows 11 virtuaalmasinata.
 1. Mis on Pilv?.
 1. Tehke endale Azure'sse ülikooli kontoga kasutaja.
 2. Azure Pilves Virtuaalmasina loomine.
-3. Azure Pilves Virtuaalmasina käivitamine.
+3. Azure Pilves Virtuaalmasina seadistamine
 4. Virtuaalmasinaga ühendamine.
 5. WSLi installimine loodud virtuaalmasina peale.
 6. Kasutusjuhud WSL-ile.
@@ -85,45 +88,73 @@ Edasi vajutage nupule "Review + create". Edasi peaks teile tekkima akna üles ro
 
 
 + Virtuaalmasina loomine võtab aega kuskil 5-15 minutit. Võite nii kaua lugeda WSLi kohta https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux
-
++ Oluline oleks siin sammul mitte praktikumi katkestada, sest vastasel juhul loob Azure VMi valmis ja paneb selle ka käima, mis põhjustab lisakulu. 
++ 
 # Virtuaalmasina käivitamine Azure pilves
 
 + Minge lingile https://portal.azure.com/#home
-
-
-@Alo Peets ja @Erkki Männiste kumb variant
-
-
-
-$\color{red}{\textrm{Raskem variant}}$
-
-+ Otsige nüüd oma loodud virtuaalmasin üles.
-
-$\color{red}{\textrm{Lihtne variant}}$
 
 + Vajutage nupule "Resource Groups"
 + Avanenud vaates vajutage resource grupile nimega &lt;perekonnaimini>-rg
 + Vajutage oma vm-i peale
   
-
+  
 
 $\color{lightblue}{\textrm{Otsige nüüd oma VMi üldvaade ülest ja tehke sellest Screenshot nagu alloval pildil näidatud}}$
 
 ![image](https://user-images.githubusercontent.com/21141607/196039626-da416317-6c88-48b5-b709-8e76ae112338.png)
 
 
-Veenduga, et teie loodud virtuaalmasin oleks käivitatud. Kui pole, siis käivitage see. 
++ Edasi otsige virtuaalmasina menüüst vasakult käelt üles "Auto-Shutdown" ja seadistage see "Enabled" olekusse. **Veenduga, et antud valik ka salvestuks**
+![image](https://user-images.githubusercontent.com/21141607/196044658-ebc3bef9-66a3-450a-8981-469a6c36bdb4.png)
+
+$\color{lightblue}{\textrm{Tehke salvestatud valikust ka Screenshot}}$
 
 
-# VIRTUAALMASINAGE ÜHENDUMINE
+
+Veenduge, et teie loodud virtuaalmasin oleks käivitatud. Kui pole, siis käivitage see. 
+
+
+
+# VIRTUAALMASINAGA ÜHENDUMINE
 
 + Kui virtuaalmasin on käivitatud, siis virtuaalmasina infovaates vajutage nupule "Connect" ja avanenud menüüst valige RDP.
 + Avaneb uus aken. Vajutage seal nupule "Download RDP File". Teile laetakse alla fail gt;perenimi>-vm.rdp. 
-+ 
-+ Klõpsake failile gt;perenimi>-vm.rdp. Aknas peaks avanema autentimisvaade. Klõpsake seal valikul "Use a different account" ja sisestaga oma varemloodud kasutajanimi ja parool. 
++ Nüüd on teil mitu võimalust ühenduda Remote Connectioniga pilves olevasse virtuaalmasinasse
++ Kui kasutate Windows 10, Windows 11 arvutit või Windows 11 lokaalselt virtuaalmasinta
+   + Klõpsake alla laetud failile gt;perenimi>-vm.rdp. Aknas peaks avanema autentimisvaade. Klõpsake seal valikul "Use a different account" ja sisestaga oma varemloodud kasutajanimi ja parool. 
++ Kui kasutate mõnda muud operatsioonisüsteemi https://learn.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients
 + Voila, olete ühendanud oma pilves asuvasse virtuaalmasinasse. 
-+ 
++ $\color{lightblue}{\textrm{Tehke enda arvutis System About vaatest Screenshot}}$
+
+# WSLI INSTALLIMINE LOODUD VIRTUAALMASINA PEALE 
+
++ Installige antud juhendi järgi enda Virtuaalmasina peale [WSL](https://learn.microsoft.com/en-us/windows/wsl/install)
+  + By default installitakse teile WSL koos Ubuntuga
++ Taaskäivitage arvuti 
+
+# WSLI KATSETAMINE 
+
++ Pärast taaskäivitamist tuleb teil sisestada enda kasutajanimi. Pange selleks enda perekonnanimi
++ Käivitage WSL ja proovige teminalis sisestada mõned Linuxi käsud 
+
+~~~sh
+ls -la
+pwd
+uname -a
+~~~
++ $\color{lightblue}{\textrm{Tehke tulemusest Screenshot}}$
++ $\color{lightblue}{\textrm{Mis kausta peate WSL-is minema, näha Windowsi kausta C:\Users\perenimi-admin\Documents kausta sisu?}}$
 
 
+# VIRTUAALMASINA SULGEMINE
+
+Minge https://portal.azure.com/#home kaudu end virtuaalmasina peale ja sulgge see. 
+
+![image](https://user-images.githubusercontent.com/21141607/196045001-014b9723-7dff-484f-8b60-848b11372952.png)
+
+![image](https://user-images.githubusercontent.com/21141607/196045075-a73ccbc8-f077-49f6-aa60-e4c389f991f9.png)
+
+Veenduge, et teie Virtuaalmasinal oleks Status: Stopped (deallocated)
 
 
