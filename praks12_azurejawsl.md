@@ -1,8 +1,7 @@
 # SISSEJUATUS 
 
 Tänase praktikumi teemaks on Pilv, Azure, Azure keskkonnas Windows 11 virtuaalmasina loomine, sellega ühendumine ja sinna peale WSLi (Windows SubSystem for Linux) 
-installimine. Kasutame tänases praktikumis sõna **lokaalne virtuaalmasin** kui mõtleme teie enda arvutisse Virtualboxiga loodud virtuaalmasinat ja sõna **virtuaalmasin**, kui räägime teie pilves asuvast virtuaalmasinast. 
-
+installimine. 
 # Sammude kokkuvõte
 
 
@@ -120,8 +119,7 @@ Veenduga, et teie loodud virtuaalmasin oleks käivitatud. Kui pole, siis käivit
 
 + Kui virtuaalmasin on käivitatud, siis virtuaalmasina infovaates vajutage nupule "Connect" ja avanenud menüüst valige RDP.
 + Avaneb uus aken. Vajutage seal nupule "Download RDP File". Teile laetakse alla fail gt;perenimi>-vm.rdp. 
-+ Edasisis samme võite proovida ka mujal kui oma virtuaalmasinas teha, aga me ei sa garanteerida nende sammude toimimise
-+ Avage enda **lokaalne** Windows 11 virtuaalmasin ja toimetage enda valitud viisil allalaetud RDP fail enda VM-i 
++ 
 + Klõpsake failile gt;perenimi>-vm.rdp. Aknas peaks avanema autentimisvaade. Klõpsake seal valikul "Use a different account" ja sisestaga oma varemloodud kasutajanimi ja parool. 
 + Voila, olete ühendanud oma pilves asuvasse virtuaalmasinasse. 
 + 
