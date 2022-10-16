@@ -19,13 +19,19 @@ installimine.
 
 Googeldage internetis selle kohta, mis on arvutimaailmas laialt tuntuks saanud pilv ja vastake oma praktikumiaruandes järgnevatele küsimustele:
 
-+ Nimetaga 3 kõige suuremat pilveteenuste pakkujat 
-+ Nimetaga 5 eelist, mis on pilveteenustel võrreldes enda teenuste füüsilistel masinatel majutamisega?
-+ Kas teate ka mõnda Eesti ettevõtet, kes pakub pilveteenuseid?
-+ Mis on vahet IAAS ja SAAS ja PAAS tenustel?
++ $\color{lightblue}{\textrm{Red Nimetaga 3 kõige suuremat pilveteenuste pakkujat}}$
++ $\color{lightblue}{\textrm{Nimetaga 5 eelist, mis on pilveteenustel võrreldes enda teenuste füüsilistel masinatel majutamisega?}}$
++ $\color{lightblue}{\textrm{Kas teate ka mõnda Eesti ettevõtet, kes pakub pilves hostimise teenust?}}$
++ $\color{lightblue}{\textrm{Mis on vahet IAAS ja SAAS ja PAAS tenustel?}}$
 
 
 ## Azure Pilv
+
+Kasutades Googlit vastake nendele küsimustele. **PS, tehke endale vastused korralikult selgeks, sest neid läheb teil ka ülejäänud praktikumi jooksul vaja.**
+
++ $\color{lightblue}{\textrm{Mis on Azure Resource Group}}$
++ $\color{lightblue}{\textrm{Mis on Azure Subscription}}$
+
 
 # Ülikooli kasutajaga konto loomine 
 
@@ -47,16 +53,16 @@ Googeldage internetis selle kohta, mis on arvutimaailmas laialt tuntuks saanud p
 1. Minge aadressile https://portal.azure.com/ 
 2. Avanenud vaates otsige üles sinine "Pluss" ikoon kirjaga "Create a resource" ja vajutage sellele
 3. Avanenud vaates otsige üles kirje "Virtual machine" ja vajutage sellele 
-![image](https://user-images.githubusercontent.com/21141607/196036198-45c67b38-f213-48a4-b15d-b3aa75539298.png)       
+![image](https://user-images.githubusercontent.com/21141607/196036889-eec37a7b-0751-4eaf-9288-dd10298287a0.png)
 4. Avaneb virtuaalmasina loomise vaade. Seda täidame nüüd järgmises peatükise
 
 ## VIRTUAALMASINA LOOMINE 
 
-Algselt peaks teile vastu vaatama selline vaade. Hakkame nüüd seda vaadet täitma. **PS, pildil näidatud välja on default väärtused ning meie praktikumi kontekstis valed** 
+Algselt peaks teile vastu vaatama selline vaade. Hakkame nüüd seda vaadet täitma. **PS, pildil näidatud välja on default väärtused ning meie praktikumi kontekstis tuleb need teil ära muuta** 
 ![image](https://user-images.githubusercontent.com/21141607/196036453-6c3628f5-0936-4d97-a326-8059aef3dcbf.png)
 
 
-1. Sammuna
+1. Veenduge, et "Subscription" all on teil valitud väli "Azure for Students" 
 
 
 
