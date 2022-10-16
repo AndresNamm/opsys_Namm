@@ -8,8 +8,6 @@ installimine.
 # Sammude kokkuvõte
 
 
-Sammud 1-4 saate teha ilma oma olemasoleva Windows 11 virtuaalmasinata.
-
 1. Mis on Pilv?.
 1. Tehke endale Azure'sse ülikooli kontoga kasutaja.
 2. Azure Pilves Virtuaalmasina loomine.
