@@ -29,13 +29,40 @@ Tänase praktikumi teema on Docker, Visual Studio Code, Visual Studio Code devco
 ### WSL 
 
 + Ava WSLi terminal
-+ Klooni endale WSLis kodukausta repo https://github.com/AndresNamm/docker_example.git 
++ Klooni endale WSLis kodukausta repo https://github.com/AndresNamm/dockertest.git
 + Mine kloonitud Githubi kausta 
 + Sisesta käsk 
 ~~~sh
 code .
 ~~~
++ **PS** - kui viimane käsk hangub, siis lihtsalt sulgege terminal ja avage uuesti. 
++ Nüüd peaks avanema vscode aken. Võite selle akna sulgeda. 
++ Edaspidi saate samamoodi vscode avada. 
 
 ## DOCKER 
+
++ [Installida Docker desktop antud juhendi järgi](https://docs.docker.com/desktop/install/windows-install/)
++ Vaadake, et mõlemad linnukesed oleksid tehtud nagu alloleval pildil. **Eriti oluline on WSLi puudutav osa**
+![image](https://user-images.githubusercontent.com/21141607/199082608-c1d0aca8-67ec-4394-8a2b-ae3f56344f86.png)
++ Käivitage Docker uuesti 
+
+
++ 
+
+
+# TESTIME DOCKERIT 
+
++ Avage nüüd uuesti WSLi aken 
++ Sisestage käsk
+~~~sh
+docker ps
+docker images 
+
+~~~
++ Minge localhost
+
+# LOOME OMA CUSTOM DOCKER IMAGE 
+
+
 
 
