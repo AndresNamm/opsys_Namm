@@ -149,7 +149,7 @@ ssh -oHostKeyAlgorithms=+ssh-dss ut_kasutaja@math.ut.ee
 alias logiut='ssh -oHostKeyAlgorithms=+ssh-dss ut_kasutaja@math.ut.ee'
 logiut
 ~~~
-+ Et logiut, ka edaspidi teid math.ut.ee serverisse logiks, siis lisage ~/.bashrc faili lõppu aliase tekitamise kood 
++ Et logiut, ka edaspidi teid math.ut.ee serverisse logiks, siis lisage ~/.bashrc faili lõppu aliase tekitamise käsk. 
 
 
 ## ÜLESANNE
