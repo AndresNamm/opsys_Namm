@@ -17,13 +17,24 @@ Tänase praktikumi teema on Docker, Visual Studio Code, Visual Studio Code devco
 
 ## VSCODE 
 
+
+### WINDOWS
+
 + [Lae alla ja installi vscode Windowsis](https://code.visualstudio.com/)
 
 ![image](https://user-images.githubusercontent.com/21141607/199066212-7d612dd1-2674-4840-aeb7-9b6905cc49ee.png)
 
-+ Lisaks tuleb installida vscode ka WSL-i 
++ [Installige endale Visual Studio Code Remote Development Extension Pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)
 
+### WSL 
 
++ Ava WSLi terminal
++ Klooni endale WSLis kodukausta repo https://github.com/AndresNamm/docker_example.git 
++ Mine kloonitud Githubi kausta 
++ Sisesta käsk 
+~~~sh
+code .
+~~~
 
 ## DOCKER 
 
