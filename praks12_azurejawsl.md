@@ -8,9 +8,6 @@ Tänase praktikumi teemaks on Azure keskkonnas Windows 11 virtuaalmasina loomine
 # Sammude kokkuvõte
 
 
-
-
-
 # Mis on pilveteenus?
 
 ## Pilveteenustest Üldiselt 
@@ -134,6 +131,34 @@ uname -a
 ~~~
 + $\color{lightblue}{\textrm{Tehke tulemusest Kuvatõmmis}}$
 + $\color{lightblue}{\textrm{ Kuvage WSL-is C:\Users\perenimi-admin\Documents kausta sisu?}}$
+
+
+
+Nüüd edasi [Lugege läbi postitus](https://blogs.windows.com/windowsdeveloper/2016/07/22/fun-with-the-windows-subsystem-for-linux/) ja $\color{lightblue}{\textrm{ Pange kirja 3 kasutegurit WSLi juures}}$
+
+
+## SSHga Tartu ülikooli serverisse 
+
+
++ WSL on tihtilugu mugavam kasutada kui on vaja kuhugi ssh-ga sisse logida. Logige sisse Tartu Ülikooli serverisse ssh-ga
+~~~sh
+ssh -oHostKeyAlgorithms=+ssh-dss ut_kasutaja@math.ut.ee
+~~~
++ Et antud protsessi lihtsamaks teha, tuleks luua alias 
+~~~sh
+alias logiut='ssh -oHostKeyAlgorithms=+ssh-dss ut_kasutaja@math.ut.ee'
+logiut
+~~~
++ Et logiut, ka edaspidi teid math.ut.ee serverisse logiks, siis lisage ~/.bashrc faili lõppu aliase tekitamise kood 
+
+
+## ÜLESANNE
+
+Läksin puhkusele ja talletasin enda paroolid failidesse siin Giti repos https://github.com/AndresNamm/accident. Mõtlesin, et kui ma teen palju faile, siis keegi ei leia minu parooli üles. Nii juhtuski, sest ma ei mäleta, millistesse failidesse ma oma paroolid panin. Palun teilt abi. 
+
+1. Kloonige antud repo endale WSLiga kodukausta
+2.  $\color{lightblue}{\textrm{ Leidke üles minu talletatud paroolid. Ps need on talletatud ainult md failidesse. }}$
+
 
 
 # VIRTUAALMASINA SULGEMINE
