@@ -93,9 +93,13 @@ unzip app.zip
 cd app/
 code .
 ~~~
-+ Avage terminal vscode aknas: Terminal -> New Terminal. Nagu näete, on teie WSL avanenud ka vscode sees.
-+ Edasi järgige tutorialit nii nagu juhises kirjas. 
++ Avage terminal vscode aknas: Terminal -> New Terminal. Nagu näete, on WSL avanenud ka vscode sees.
++ Edasi järgige tutorialit nii nagu juhises kirjas. Tehke lõpuni sammud "Getting Started", "Our Application" ja "Updating our APP"
 
+
+
+
+![image](https://user-images.githubusercontent.com/21141607/199090984-6bba50ea-3b91-46aa-babd-38b71c15b72c.png)
 
 
 
