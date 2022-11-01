@@ -135,19 +135,18 @@ docker login azure
 
 + Selgitage välja oma [Ülikooli Subscription ID selle juhendi järgi](https://learn.microsoft.com/en-us/azure/azure-portal/get-subscription-tenant-id)
 + Eelnevalt tuleb teil endal resource-group luua. Kasutame selleks azure cli-d. Selleks, et seda kasutada, tuleb ta installida [selle juhendi järgi](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-linux?source=recommendations&pivots=apt). 
-
++ Kui olete endal Azure CLI installinud, siis kõigpeale logige oma ülikooli kontoga enda Azure-sse sisse. Avaneb prompt, kus küsitakse teie parooli ja passwordi. 
 ~~~sh
-az group create --location --name
+az login
+~~~
++ Pärast sisselogimist saate endal luua uue resource groupi.
+~~~sh
+az group create --location norwayeast --name <perenimi>-ci
 ~~~
 
-
-~~~sh 
-az 
++ Nüüd saate endal Dockeri konteksti luua. [Mis on Dockeri kontekst?](https://docs.docker.com/engine/context/working-with-contexts/)
 ~~~
-
-+ Nüüd saate endal Dockeri konteksti luua. 
-~~~
-docker context create aci --subscription-id  <Teie Subscriptioni ID> --resource-group  <Teie Resource Group> --location  eu-west
+docker context create aci --subscription-id  <Teie Ülikool Azure Subscriptioni ID> --resource-group  <Teie Loodud  Resource Group Nimi> --location  eu-west
 ~~~
 
 ##
