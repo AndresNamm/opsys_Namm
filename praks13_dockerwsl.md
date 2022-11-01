@@ -1,6 +1,10 @@
 # SISSEJUHATUS 
 
+Olete kunagi kuulnud kedagi ütlemas, see töötas minu arvutis. Olete te kunagi näinud roppu moodi vaeva, et saada enda arvutis käima arenduskeskkond mingile projektile. 
+Olete kunagi teinud serveris mingeid muudatusi nii, et nendest muudatustest enam tagasi liikuda ei saa. Tänase praktikumi eesmärk on need probleemid elimineerida või vähemalt selliste probleemide hulka võimalikult palju vähendada. 
+
 Tänase praktikumi teema on Docker, Visual Studio Code, Visual Studio Code devcontainers, ja Azures Container Instances. 
+
 
 
 # SAMMUDE LOETELU 
@@ -9,8 +13,9 @@ Tänase praktikumi teema on Docker, Visual Studio Code, Visual Studio Code devco
 1. Installime Visual Studio Code ja Docker Desktopi
 2. Testime Dockerit
 3. Loome oma Custom Dockeri image 
-4. Proovime VSCode Devcontainereid
 5. Testime Azure Container Instanceid
+6. Proovime VSCode Devcontainereid
+
 
 
 # INSTALLIMINE 
@@ -76,11 +81,11 @@ docker images
 
 ## DOCKERI TUTORIALI TÄPSUSTAVAD SAMMUD 
 
-## GETTING STARTED
+## Getting Started
 
 + $\color{lightblue}{\textrm{Defineerige, mis on Dockerfile, Docker image, Docker container}}$
 
-## OUR APPLICATION
+## Our Application
 
 + Laadige alla zip fail. 
 ![image](https://user-images.githubusercontent.com/21141607/199086224-ad1b694b-d794-4238-a28c-187a3c2f8f01.png)
@@ -94,18 +99,54 @@ cd app/
 code .
 ~~~
 + Avage terminal vscode aknas: Terminal -> New Terminal. Nagu näete, on WSL avanenud ka vscode sees.
-+ Edasi järgige tutorialit nii nagu juhises kirjas. Tehke lõpuni sammud "Getting Started", "Our Application" ja "Updating our APP"
++ Edasi järgige tutorialit nii nagu juhises kirjas. Tehke lõpuni sammud "Getting Started", "Our Application" ja "Updating our APP", "Sharing our App" ja "Persisting data". Soovitame soojalt teha läbi ka järgmised sammud, aga see ei ole kohustuslik
 
-
-
++ $\color{lightblue}{\textrm{Tehke enda VMist screenshot, kus on näha todo app ja terminal koos teie kasutajanimega}}$
+ 
 
 ![image](https://user-images.githubusercontent.com/21141607/199090984-6bba50ea-3b91-46aa-babd-38b71c15b72c.png)
 
 
 
-# LOOME OMA CUSTOM DOCKER IMAGE 
+## Sharing our app
 
-https://docs.docker.com/language/python/
++ Kui samm "Play with Docker" ei õnnestu, siis jätke see lihtsalt vahele
++ $\color{lightblue}{\textrm{Mis on antud sammu mõte? Mida see samm demonstreerib?}}$
+
+
+## Persisting our DB
+
++ Tehke screenshot käsu 'docker volume inspect todo-db' väljundist.
+
+# AZURE CONTAINER INSTANCES
+
++ Mäletatavasti tegite endale eelmises praktikumis Azure konto. Tänases praktikumis kasutame seda jälle. 
++ [Lugege läbi antud tutorial. Teeme need sammud praktikumis läbi](https://docs.docker.com/cloud/aci-integration/)
+
+
+## Logige oma Azure kontole Dockeriga sisse
+
+~~~sh
+docker login azure
+~~~
+
+
+## Tekitage endale Docker kontekst
+
++ Selgitage välja oma [Ülikooli Subscription ID selle juhendi järgi](https://learn.microsoft.com/en-us/azure/azure-portal/get-subscription-tenant-id)
++ Eelnevalt tuleb teil endal resource-group luua. Kasutame selleks azure cli-d
+
+~~~sh 
+az 
+~~~
+
++ Nüüd saate endal Dockeri konteksti luua. 
+~~~
+docker context create aci --subscription-id  <Teie Subscriptioni ID> --resource-group  <Teie Resource Group> --location  eu-west
+~~~
+
+
+
 
 
 
