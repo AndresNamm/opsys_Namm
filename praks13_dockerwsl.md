@@ -172,8 +172,22 @@ docker context create aci --subscription-id $AZURE_SUBSCRIPTION --resource-group
 docker --context <perenimi>-aci run -p 80:80 nginx
 ~~~
 
++ See Samm võtab nüüd aega. Ärge seda praegu ära canceldage.
++  $\color{lightblue}{\textrm{Edasi tuleb teil Azure portalis üles leida tekkinud Dockeri konteiner ja sellest Screenshot teha nagu praegune näide näitab}}$
+ 
++ 
+![image](https://user-images.githubusercontent.com/21141607/199810779-70615428-8048-435e-ad1b-11992acad83f.png)
 
-## 
+
+# VISUAL STUDIO CODE CONTAINERS
+
+Selle sammu eesmärk on teha teie arenduskeskkond 100 % reprodutseeritavaks mõne klikiga. Tavaliselt võtab uue ettevõtte/projektiga liitudes väga pikalt aega arenduskeskkonna üle seadmine. Visual Studio Code devcontainerid lubavad teil üles ehitada oma arenduskeskkonnad Dokcer konteineri põhjal. See tähendab, et arenduskeskkond on 
+
+1. Alati reprodutseeritav
+2. Lihtne üles seada
+3. Võimalikult sarnane produktsioonikeskkonnaga. 
+
+
 
 
 
