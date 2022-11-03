@@ -150,14 +150,28 @@ az account set --subscription $AZURE_SUBSCRIPTION
 az group create --location norwayeast --name <perenimi>-ci
 ~~~
 
+
++ Logi dockeriga Azure sisse
+
+~~~sh
+docker login azure
+~~~
+
 + Nüüd saate endal Dockeri konteksti luua. [Mis on Dockeri kontekst?](https://docs.docker.com/engine/context/working-with-contexts/)
+
+
 ~~~
 RESOURCE_GROUP=perenimi>-ci
-docker context create aci --subscription-id  $AZURE_SUBSCRIPTION --resource-group  $RESOURCE_GROUP --location  norwayeast
+docker context create aci --subscription-id $AZURE_SUBSCRIPTION --resource-group $RESOURCE_GROUP --location norwayeast <perenimi>-aci
 ~~~
 
 
-docker context create aci --subscription-id   --resource-group  namm-ci --location  eu-west
++ Jooksuta nüüd test dockeri imaget Azure pilves 
+
+~~~sh
+docker --context <perenimi>-aci run -p 80:80 nginx
+~~~
+
 
 ## 
 
