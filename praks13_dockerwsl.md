@@ -121,8 +121,9 @@ code .
 # AZURE CONTAINER INSTANCES
 
 + Mäletatavasti tegite endale eelmises praktikumis Azure konto. Tänases praktikumis kasutame seda jälle. 
-+ [Lugege läbi antud tutorial. Teeme need sammud praktikumis läbi](https://docs.docker.com/cloud/aci-integration/)
 
+
+[Järgnevad sammud on pandud kirja selle tutoriali pinnalt. Kui kuskil jänni jääte, siis saate lisainfot juurde otsida.](https://docs.docker.com/cloud/aci-integration/)
 
 ## Logige oma Azure kontole Dockeriga sisse
 
@@ -134,11 +135,16 @@ docker login azure
 ## Tekitage endale Docker kontekst
 
 + Selgitage välja oma [Ülikooli Subscription ID selle juhendi järgi](https://learn.microsoft.com/en-us/azure/azure-portal/get-subscription-tenant-id)
-+ Eelnevalt tuleb teil endal resource-group luua. Kasutame selleks azure cli-d. Selleks, et seda kasutada, tuleb ta installida [selle juhendi järgi](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-linux?source=recommendations&pivots=apt). 
++ Eelnevalt tuleb teil endal resource-group luua. Kasutame selleks azure cli-d. Selleks, et seda kasutada, tuleb ta **WSLi** installida [selle juhendi järgi](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-linux?source=recommendations&pivots=apt). 
 + Kui olete endal Azure CLI installinud, siis kõigpeale logige oma ülikooli kontoga enda Azure-sse sisse. Avaneb prompt, kus küsitakse teie parooli ja passwordi. 
 ~~~sh
 az login
 ~~~
++ Valige endale active Azure Subscription. See, mis te enne üles otsisite.
+~~~sh
+AZURE_SUBSCRIPTION="xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+az account set --subscription $AZURE_SUBSCRIPTION
+~~~~
 + Pärast sisselogimist saate endal luua uue resource groupi.
 ~~~sh
 az group create --location norwayeast --name <perenimi>-ci
@@ -146,10 +152,14 @@ az group create --location norwayeast --name <perenimi>-ci
 
 + Nüüd saate endal Dockeri konteksti luua. [Mis on Dockeri kontekst?](https://docs.docker.com/engine/context/working-with-contexts/)
 ~~~
-docker context create aci --subscription-id  <Teie Ülikool Azure Subscriptioni ID> --resource-group  <Teie Loodud  Resource Group Nimi> --location  eu-west
+RESOURCE_GROUP=perenimi>-ci
+docker context create aci --subscription-id  $AZURE_SUBSCRIPTION --resource-group  $RESOURCE_GROUP --location  norwayeast
 ~~~
 
-##
+
+docker context create aci --subscription-id   --resource-group  namm-ci --location  eu-west
+
+## 
 
 
 
