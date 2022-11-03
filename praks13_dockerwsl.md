@@ -169,15 +169,28 @@ docker context create aci --subscription-id $AZURE_SUBSCRIPTION --resource-group
 + Jooksuta nüüd test dockeri imaget Azure pilves 
 
 ~~~sh
-docker --context <perenimi>-aci run -p 80:80 nginx
+docker context use <perenimi>-aci
+docker run -p 80:80 nginx
 ~~~
 
 + See Samm võtab nüüd aega. Ärge seda praegu ära canceldage.
 +  $\color{lightblue}{\textrm{Edasi tuleb teil Azure portalis üles leida tekkinud Dockeri konteiner ja sellest Screenshot teha nagu praegune näide näitab}}$
- 
-+ 
+  
 ![image](https://user-images.githubusercontent.com/21141607/199810779-70615428-8048-435e-ad1b-11992acad83f.png)
 
+
++ Vaadake nüüd jooksvaid dockeri konteinereid
+
+~~~sh
+docker ps
+~~~
+
++ Leidke väljundist CONTAINER ID ja 
+
+~~~sh
+docker stop <CONTAINER_ID>
+docker rm <CONTAINER_ID>
+~~~ 
 
 # VISUAL STUDIO CODE CONTAINERS
 
