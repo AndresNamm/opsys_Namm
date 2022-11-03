@@ -179,7 +179,8 @@ docker run -p 80:80 nginx
 
 + See Samm võtab nüüd aega. Ärge seda praegu ära canceldage.
 +  $\color{lightblue}{\textrm{Edasi tuleb teil Azure portalis üles leida tekkinud Dockeri konteiner ja sellest Screenshot teha nagu praegune näide näitab}}$
-  
+ 
+
 ![image](https://user-images.githubusercontent.com/21141607/199810779-70615428-8048-435e-ad1b-11992acad83f.png)
 
 + Antud lehel on kättesaadav ka docker konteineri Public IP. Minge oma veebibrauseriga sellele aadressile. Peaks avanema nginx veebiserveri "Hello world näide". Palju õnne, olete oma esimese Dockeri image laiale avalikusele deploynud.
@@ -250,12 +251,17 @@ code .
 
 + Nüüd tõmmatakse alla kõik vajalikud Dockeri imaged. Natukes aja pärast peaks avanema teil GO arenduskeskkond. 
 
-+ Kopeeriga endale nüüd siit GO keele näide alla https://gobyexample.com/hello-world ja tehke enda arenduskeskkonda uus fail main.go ja jooksutage seda. 
-
-
-+  $\color{lightblue}{\textrm{Edasi tuleb teil Azure portalis üles leida tekkinud Dockeri konteiner ja sellest Screenshot teha nagu praegune näide näitab}}$
++ Kopeeriga endale nüüd siit GO keele näide alla https://gobyexample.com/hello-world ja tehke enda arenduskeskkonda uus fail hello-world.go ja jooksutage seda nagu näites näidatud
   
  
++ $\color{lightblue}{\textrm{Tehke screensho jooksnud GO programmist}}$
+
++ Go installiti ainult Dockeri konteineri sisse. See on täiesti isoleeritud teie ülejäänud VMist. 
+
+
+# LÕPPSAMMUD 
+
++ Minge nüüd portal.azure.com ja eemaldage kõik loodud ressursid. 
 
 
 
