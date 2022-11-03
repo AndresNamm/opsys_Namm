@@ -261,8 +261,13 @@ code .
 
 # LÕPPSAMMUD 
 
-+ Minge nüüd portal.azure.com ja eemaldage kõik loodud ressursid. 
++ Minge nüüd portal.azure.com. Otsige oma resource grupid üles ja eemaldage kõik loodud ressursid. 
 
++ Valige kõik ressursid. Ning eemaldage need. 
+![image](https://user-images.githubusercontent.com/21141607/199819208-a6014b2d-20d4-4b4b-ade6-3d777ce70d75.png)
++ Vajutage mõlema resource groupi puhul"Delete Resource Group"
+![image](https://user-images.githubusercontent.com/21141607/199819415-df2b9cac-b2d7-4c97-936a-7d7e60650fa0.png)
+![image](https://user-images.githubusercontent.com/21141607/199819481-3b5721a5-9628-4d84-afd6-0fe7bf60481b.png)
 
 
 
