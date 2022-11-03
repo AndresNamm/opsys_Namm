@@ -31,6 +31,10 @@ Tänase praktikumi teema on Docker, Visual Studio Code, Visual Studio Code devco
 
 + [Installige endale Visual Studio Code Remote Development Extension Pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)
 
+![image](https://user-images.githubusercontent.com/21141607/199813413-330e585c-ec9c-4744-bcda-dd1f6316de94.png)
+
+
+
 ### WSL 
 
 + Ava WSLi terminal
@@ -178,12 +182,15 @@ docker run -p 80:80 nginx
   
 ![image](https://user-images.githubusercontent.com/21141607/199810779-70615428-8048-435e-ad1b-11992acad83f.png)
 
++ Antud lehel on kättesaadav ka docker konteineri Public IP. Minge oma veebibrauseriga sellele aadressile. Peaks avanema nginx veebiserveri "Hello world näide". Palju õnne, olete oma esimese Dockeri image laiale avalikusele deploynud.
 
 + Vaadake nüüd jooksvaid dockeri konteinereid
 
 ~~~sh
 docker ps
 ~~~
+
+
 
 + Leidke väljundist CONTAINER ID ja 
 
@@ -192,14 +199,63 @@ docker stop <CONTAINER_ID>
 docker rm <CONTAINER_ID>
 ~~~ 
 
+
+
 # VISUAL STUDIO CODE CONTAINERS
+
 
 Selle sammu eesmärk on teha teie arenduskeskkond 100 % reprodutseeritavaks mõne klikiga. Tavaliselt võtab uue ettevõtte/projektiga liitudes väga pikalt aega arenduskeskkonna üle seadmine. Visual Studio Code devcontainerid lubavad teil üles ehitada oma arenduskeskkonnad Dokcer konteineri põhjal. See tähendab, et arenduskeskkond on 
 
+
 1. Alati reprodutseeritav
 2. Lihtne üles seada
-3. Võimalikult sarnane produktsioonikeskkonnaga. 
+4. Võimalikult sarnane produktsioonikeskkonnaga. 
 
+
+
+
+
++ Sulgege nüüd VsCode
++ Avage uuesti Ubuntu WSL
++ Tekitage kodukausta uus repo nimega perenimi-devcontainer
+
+
+~~~sh
+cd <perenimi>-devcontainer
+code . 
+~~~
+
+ 
++ Avanenud vscode aknase vajutage klaviatuuril CTRL+SHIFT+P või valige View->Command Palette
++ Avanenud aknas kirjutage nagu allolevas screenshotis näidatud on
+
+
+
+![image](https://user-images.githubusercontent.com/21141607/199813660-7a420feb-691f-49ad-8fde-c9328906b1ac.png)
+
+ 
++ Valige From a predefined container configuration definition.. ja Show all definitions
++ Valige menüüst "Go"
+
+
++ Avaneb devcontainer.json fail. 
+![image](https://user-images.githubusercontent.com/21141607/199814509-cb136077-64a4-43de-9483-7028c66baff7.png)
+
++ Avage küljelt menüüs kaust ".devcontainer". Seal on ka Dockerfile, mis kirjeldab milliset arenduskeskkonda te dockeris tahata. Antud näide on GO-le suunatud. Seda on võimalik ka kohandada vastavalt vajadusele ning git-i commitida, et uus arendaja saaks endale täpselt sama arenduskeskkonna. 
++ Vajutage uuesti CTRL+SHIFT+P
++ Valige Dev Containers: Rebuild and Reopen in Container. Kui tuleb error, et Dokcer ei jookse, siis
+
+![image](https://user-images.githubusercontent.com/21141607/199815834-bce07388-7750-4552-9955-2bbeb894403c.png)
+
+
++ Nüüd tõmmatakse alla kõik vajalikud Dockeri imaged. Natukes aja pärast peaks avanema teil GO arenduskeskkond. 
+
++ Kopeeriga endale nüüd siit GO keele näide alla https://gobyexample.com/hello-world ja tehke enda arenduskeskkonda uus fail main.go ja jooksutage seda. 
+
+
++  $\color{lightblue}{\textrm{Edasi tuleb teil Azure portalis üles leida tekkinud Dockeri konteiner ja sellest Screenshot teha nagu praegune näide näitab}}$
+  
+ 
 
 
 
