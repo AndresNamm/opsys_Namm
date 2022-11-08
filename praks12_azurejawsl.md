@@ -14,8 +14,8 @@ Tänase praktikumi teemaks on Azure keskkonnas Windows 11 virtuaalmasina loomine
 
 Otsige Internetist arvutimaailmas laialt tuntuks saanud pilveteenuse kohta infot ja vastake oma praktikumiaruandes järgnevatele küsimustele:
 
-+ $\color{lightblue}{\textrm{Red Nimetage 3 kõige suuremat pilveteenuste pakkujat}}$
-+ $\color{lightblue}{\textrm{Nimetage 5 eelist, mis on pilveteenustel võrreldess enda teenuste füüsilistel masinatel majutamisega?}}$
++ $\color{lightblue}{\textrm{Nimetage 3 kõige suuremat pilveteenuste pakkujat}}$
++ $\color{lightblue}{\textrm{Nimetage 5 eelist, mis on pilveteenustel võrreldes enda teenuste füüsilistel masinatel majutamisega?}}$
 + $\color{lightblue}{\textrm{Nimetage 3 situatsiooni, kus pole pilveteenuse kasutamine mõistlik?}}$
 + $\color{lightblue}{\textrm{Mis on vahet IAAS ja SAAS ja PAAS tenustel?}}$
 + $\color{lightblue}{\textrm{Kas teate ka mõnda Eesti ettevõtet, kes pakub pilves IAAS hostimise teenust?}}$
