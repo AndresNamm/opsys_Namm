@@ -172,3 +172,6 @@ Läksin puhkusele ja talletasin enda paroolid failidesse siin Giti repos https:/
 Veenduge, et teie virtuaalmasinal oleks toodud välja "Status: Stopped (deallocated)"
 
 
+
+[Tagasiside praktikumile](https://forms.office.com/r/S7rLfwzKe4)
+
