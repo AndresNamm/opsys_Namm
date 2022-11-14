@@ -190,10 +190,11 @@ Veenduge, et teie virtuaalmasinal oleks toodud välja "Status: Stopped (dealloca
 
 # [!!!! Tagasiside praktikumile](https://forms.office.com/r/S7rLfwzKe4)
 
-# EELNEVAT KÜSIMUSTE KOKKUVÕTE ESITAMISEKS
+# PRAKTIKUMI KOKKUVÕTE ESITAMISEKS
 
 Vastused tuleb ikka nagu tavalisele esitada praktikumi [courses.cs.ut](https://courses.cs.ut.ee/2022/os/fall/Main/Praktikum12) lehel
-## PILVETEENUSTE TEEMA
+
+## KÜSIMUSED
 
 1. $\color{blue}{\textrm{Nimetage 3 kõige suuremat pilveteenuste pakkujat}}$
 2. $\color{blue}{\textrm{Nimetage 5 eelist, mis on pilveteenustel võrreldes enda teenuste füüsilistel masinatel majutamisega?}}$
@@ -203,18 +204,13 @@ Vastused tuleb ikka nagu tavalisele esitada praktikumi [courses.cs.ut](https://c
 6. $\color{blue}{\textrm{Mis on Azure Resource Group}}$
 7. $\color{blue}{\textrm{Mis on Azure Subscription}}$
 8. $\color{blue}{\textrm{Mis on Azure Resource}}$
-
-## VIRTUAALMASINA LOOMINE
-
 9. $\color{blue}{\textrm{Tehke VM loomise vaatest screenshot }}$ Näidis
-![image](https://user-images.githubusercontent.com/21141607/196039626-da416317-6c88-48b5-b709-8e76ae112338.png)
-
 10. $\color{blue}{\textrm{Tehke kohast, kus on näidatud, et teil on Auto Shutdown enablitud kuvatõmmis}}$
 11. $\color{blue}{\textrm{Tehke enda virtuaalmasinas Settings->System->About vaatest kuvatõmmis}}$
-
-
-## WSL
-
 12. $\color{blue}{\textrm{Pange kirja 3 kasutegurit WSLi juures}}$
 13. $\color{blue}{\textrm{Tehke kuvatõmmis sellest, kui olete listinud WSL-is enda kodukusta sisu}}$
 14. $\color{blue}{\textrm{ÜLESANNE: Leidke üles minu reposse talletatud paroolid. PS! need on talletatud ainult md failidesse. }}$
+
+## KUVATÕMMISTE NÄITED
+
+![image](https://user-images.githubusercontent.com/21141607/196039626-da416317-6c88-48b5-b709-8e76ae112338.png)
