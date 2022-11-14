@@ -174,7 +174,7 @@ Proovige läbi mitu erinevat võimalust enda remote virtuaalmasinas avada WSL
 Läksin puhkusele ja talletasin enda paroolid failidesse siin Giti repos https://github.com/AndresNamm/accident. Mõtlesin, et kui ma teen palju faile, siis keegi ei leia minu parooli üles. Nii juhtuski, sest ma ei mäleta, millistesse failidesse ma oma paroolid panin. Palun teilt abi. 
 
 1. Kloonige antud repo endale WSLiga kodukausta
-2.  $\color{blue}{\textrm{Leidke üles minu talletatud paroolid. PS! need on talletatud ainult md failidesse. }}$ - Valige sealt Ubuntu. 
+2. $\color{blue}{\textrm{Tehke valmis WSLi skript, mis leiab üles minu talletatud paroolid. PS! need on talletatud ainult md failidesse. }}$ 
 
 
 # VIRTUAALMASINA SULGEMINE
@@ -192,7 +192,7 @@ Veenduge, et teie virtuaalmasinal oleks toodud välja "Status: Stopped (dealloca
 
 # PRAKTIKUMI KOKKUVÕTE ESITAMISEKS
 
-Vastused tuleb ikka nagu tavalisele esitada praktikumi [courses.cs.ut](https://courses.cs.ut.ee/2022/os/fall/Main/Praktikum12) lehel
+Lahendused tuleb ikka nagu tavalisele esitada praktikumi [courses.cs.ut](https://courses.cs.ut.ee/2022/os/fall/Main/Praktikum12) lehel
 
 ## KÜSIMUSED
 
@@ -209,7 +209,7 @@ Vastused tuleb ikka nagu tavalisele esitada praktikumi [courses.cs.ut](https://c
 11. $\color{blue}{\textrm{Tehke enda virtuaalmasinas Settings->System->About vaatest kuvatõmmis}}$
 12. $\color{blue}{\textrm{Pange kirja 3 kasutegurit WSLi juures}}$
 13. $\color{blue}{\textrm{Tehke kuvatõmmis sellest, kui olete listinud WSL-is enda kodukusta sisu}}$
-14. $\color{blue}{\textrm{ÜLESANNE: Leidke üles minu reposse talletatud paroolid. PS! need on talletatud ainult md failidesse. }}$
+14. $\color{blue}{\textrm{Tehke valmis WSLi skript, mis leiab üles minu talletatud paroolid. PS! need on talletatud ainult md failidesse. }}$ 
 
 ## KUVATÕMMISTE NÄITED
 
