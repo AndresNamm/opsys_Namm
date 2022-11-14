@@ -2,8 +2,10 @@
 
 Tänase praktikumi teemaks on Azure keskkonnas Windows 11 virtuaalmasina loomine, sellega ühendumine ja sinna peale WSL-i (Windows SubSystem for Linux)  installimine. Lisaks tutvutme ka pilveteenuste ja Azurega.
 
+Siiamaani, kasutasime VM kohalikus masinas. Nüüd tekitame olukorra, kus see on üles seatud pilveteenuses - See tähendab, et teie virtuaalmasin on üles seatud kusagil serveripargis, mille asupaiks võib olla teist tuhandete kilomeetrite kaudusel. See ongi enamasti virtuaalmasinate põhiline kasutusjuht ning ka väärtus, kuna võimaldab efektiivsemat ressursside haldamist ning lisaks ka stabiilsemat keskkonda.  
 
-**Väga oluline on, et te lülitate oma pilveteenuses asuva virtuaalmasina välja iga kord pärast selle kasutamist. Vastasel juhul lõppeb teil endal tasuta kasutatav ressurss ning ei ole võimalik praktikumi lõpuni teha**
+
+**NB! Kuna tänases praktikumis kasutate tasulisi ressursse piiratud Azure krediidiga, siis Väga oluline on, et te lülitate oma pilveteenuses asuva virtuaalmasina välja iga kord pärast selle kasutamist. Vastasel juhul lõppeb teil endal tasuta kasutatav ressurss ning ei ole võimalik praktikumi lõpuni teha**
 
 # Sammude kokkuvõte
 
@@ -64,12 +66,11 @@ B Kasutades Internetti, vastake nendele küsimustele. **PS, tehke endale vastuse
 Virtuaalmasina loomiseks täitke ära avanenud vaade nii nagu pildil näidatud. **Asendage nimi "namm" enda perekonnanimega ilma täpitähtedeta.** 
 **Väga oluline on, et jätata ka oma lisatud parooli ja kasutajanime meelde. Teil läheb seda vaja VMi sisselogimisel**
 
-+ 
-
-![image](https://user-images.githubusercontent.com/21141607/196038492-502d97d8-3500-41d8-b334-6f9efb40c54c.png)
+![](img/praks12_azurejawsl.md/2022-11-14-11-47-29.png)
 ![image](https://user-images.githubusercontent.com/21141607/196038509-00914b16-91fd-4f04-bfe4-dd2c428d2be3.png)
 
 Edasi vajutaga nupule: "Next: Disks"
+
 
 
 + Valige OS diskiks "Standard HDD (locally-redundant storage)"
@@ -117,13 +118,26 @@ Veenduge, et teie loodud virtuaalmasin oleks käivitatud. Kui pole, siis käivit
 + Voila, olete ühendunud oma pilves asuvasse virtuaalmasinasse. 
 + $\color{blue}{\textrm{Tehke enda arvutis Settings->System->About vaatest kuvatõmmis}}$
 
-# WSL-i INSTALLIMINE LOODUD VIRTUAALMASINA PEALE 
+
+# WSL
+
+## SISSEJUHATUS WSL-i
+
+Tänase praktikumi üheks teemaks on ka WSLi (Windows Substystem For Linux) installimine Azure pilve loodud virtuaalmasinasse.  WSL pakub teile võimalust Windowsi keskkonnas seada üles täisfunktsionaalsusega Linuxi terminal vastavalt teie soovile kas Ubuntu, Debiani või mingi muu distroga.
+
+Esmalt [Lugege läbi WSLi teemaline postitus](https://blogs.windows.com/windowsdeveloper/2016/07/22/fun-with-the-windows-subsystem-for-linux/) ja $\color{blue}{\textrm{ Pange kirja 3 kasutegurit WSLi juures}}$
+
+
+
+## WSL-i INSTALLIMINE LOODUD VIRTUAALMASINA PEALE 
+
+
 
 + Installige antud juhendi järgi enda Virtuaalmasina peale [WSL](https://learn.microsoft.com/en-us/windows/wsl/install)
   + By default installitakse teile WSL koos Ubuntuga
 + Taaskäivitage arvuti 
 
-# WSL-i KATSETAMINE 
+## WSL-i KATSETAMINE 
 
 + Pärast taaskäivitamist tuleb teil sisestada enda kasutajanimi. Pange selleks enda perekonnanimi ilma täpitähtedeta.
 + Käivitage WSL ja proovige selles sisestada mõned Linuxi käsud 
@@ -134,11 +148,10 @@ pwd
 uname -a
 ~~~
 + $\color{blue}{\textrm{Tehke tulemusest Kuvatõmmis}}$
-+ $\color{blue}{\textrm{ Kuvage WSL-is C:\Users\perenimi-admin\Documents kausta sisu?}}$
++ $\color{blue}{\textrm{ Kuvage WSL-is  kausta sisu?}}$
 
 
 
-Nüüd edasi [Lugege läbi postitus](https://blogs.windows.com/windowsdeveloper/2016/07/22/fun-with-the-windows-subsystem-for-linux/) ja $\color{blue}{\textrm{ Pange kirja 3 kasutegurit WSLi juures}}$
 
 
 ## SSHga Tartu ülikooli serverisse 
@@ -164,7 +177,6 @@ Läksin puhkusele ja talletasin enda paroolid failidesse siin Giti repos https:/
 2.  $\color{blue}{\textrm{ Leidke üles minu talletatud paroolid. Ps need on talletatud ainult md failidesse. }}$
 
 
-
 # VIRTUAALMASINA SULGEMINE
 
 + Minge aadressile: https://portal.azure.com/#home
@@ -179,3 +191,22 @@ Veenduge, et teie virtuaalmasinal oleks toodud välja "Status: Stopped (dealloca
 
 [Tagasiside praktikumile](https://forms.office.com/r/S7rLfwzKe4)
 
+# EELNEVAT KÜSIMUSTE KOKKUVÕTE ESITAMISEKS
+
++ $\color{blue}{\textrm{Nimetage 3 kõige suuremat pilveteenuste pakkujat}}$
++ $\color{blue}{\textrm{Nimetage 5 eelist, mis on pilveteenustel võrreldes enda teenuste füüsilistel masinatel majutamisega?}}$
++ $\color{blue}{\textrm{Nimetage 3 situatsiooni, kus pole pilveteenuse kasutamine mõistlik?}}$
++ $\color{blue}{\textrm{Mis on vahet IAAS ja SAAS ja PAAS tenustel?}}$
++ $\color{blue}{\textrm{Kas teate ka mõnda Eesti ettevõtet, kes pakub pilves IAAS hostimise teenust?}}$
++ $\color{blue}{\textrm{Mis on Azure Resource Group}}$
++ $\color{blue}{\textrm{Mis on Azure Subscription}}$
++ $\color{blue}{\textrm{Mis on Azure Resource}}$
++ $\color{blue}{\textrm{Tehke oma virtuaalmasina loomise vaatest screenshot }}$
+![image](https://user-images.githubusercontent.com/21141607/196039626-da416317-6c88-48b5-b709-8e76ae112338.png)
+
+
+
++ $\color{blue}{\textrm{Tehke tulemusest Kuvatõmmis}}$
++ $\color{blue}{\textrm{ Kuvage WSL-is  kausta sisu?}}$
+
++ $\color{blue}{\textrm{ Pange kirja 3 kasutegurit WSLi juures}}$
