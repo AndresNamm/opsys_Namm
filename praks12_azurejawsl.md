@@ -111,7 +111,7 @@ Veenduge, et teie loodud virtuaalmasin oleks käivitatud. Kui pole, siis käivit
 + Avaneb uus aken. Vajutage seal nupule "Download RDP File". Teile laetakse alla fail &lt;perenimi>-vm.rdp. 
 + Nüüd on teil mitu võimalust ühenduda Remote Connectioniga pilveteenuses olevasse virtuaalmasinasse. Soovitame esmalt proovida ühendumiseks teie enda host süsteemi.
 + Kui kasutate Windows 10, Windows 11 arvutit või Windows 11 lokaalselt virtuaalmasinat
-   + Klõpsake alla laetud failile &lt;perenimi>-vm.rdp. Aknas peaks avanema autentimisvaade. Klõpsake seal valikul "Use a different account" ja sisestaga oma **varemloodud kasutajanimi ja parool**  
+   + Klõpsake alla laetud failile &lt;perenimi>-vm.rdp. Aknas peaks avanema autentimisvaade. Klõpsake seal valikul "Use a different account" ja sisestaga oma **vm-ile loodud kasutajanimi ja parool**  Seda RDP faili saab kasutada Remote VMiga ühendamiseks kuni VMi ip muutub. 
 + Kui kasutate mõnda muud operatsioonisüsteemi https://learn.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients
 + Voila, olete ühendunud oma pilves asuvasse virtuaalmasinasse. 
 + $\color{blue}{\textrm{Tehke enda virtuaalmasinas Settings->System->About vaatest kuvatõmmis}}$
@@ -135,9 +135,16 @@ Esmalt [Lugege läbi WSLi teemaline postitus](https://blogs.windows.com/windowsd
   + By default installitakse teile WSL koos Ubuntuga
 + Taaskäivitage arvuti 
 
+## WSLI AVAMISE VÕIMALUSE 
+
+Pärast arvuti restarti proovige läbi mitu erinevat võimalust enda remote virtuaalmasinas avada WSL. 
+
++ Avage Virtuaalmasin otsing ja kirjutage otsingusse "Ubuntu". Selle peale avaneb teile WSLi aken. Pärast taaskäivitamist tuleb teil WSL käivitades sisestada enda kasutajanimi. Pange selleks enda perekonnanimi ilma täpitähtedeta.
++ Avage Virtuaalmasin otsing ja kirjutage otsingusse Terminal Powershelliga, klikake nüüd uue tabi avamise valikute nupule ![](img/praks12_azurejawsl.md/2022-11-14-13-14-06.png) ning valige sealt valik Ubuntu.
+
+
 ## WSL-i KATSETAMINE 
 
-+ Pärast taaskäivitamist tuleb teil sisestada enda kasutajanimi. Pange selleks enda perekonnanimi ilma täpitähtedeta.
 + Käivitage WSL ja proovige selles sisestada mõned Linuxi käsud 
 
 ~~~sh
@@ -163,11 +170,6 @@ logiut
 + Et logiut, ka edaspidi teid math.ut.ee serverisse logiks, siis lisage ~/.bashrc faili lõppu aliase tekitamise käsk. 
 
 
-## WSLI AVAMISE VÕIMALUSE 
-
-Proovige läbi mitu erinevat võimalust enda remote virtuaalmasinas avada WSL
-+ Avage Virtuaalmasin otsing ja kirjutage otsingusse "Ubuntu". Selle peale avaneb teile WSLi aken
-+  Avage Virtuaalmasin otsing ja kirjutage otsingusse Terminal Powershelliga, klikake nüüd uue tabi avamise valikute nupule ![](img/praks12_azurejawsl.md/2022-11-14-13-14-06.png) ning valige sealt valik Ubuntu.
 
 ## ÜLESANNE
 
