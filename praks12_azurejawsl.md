@@ -204,7 +204,7 @@ Vastused tuleb ikka nagu tavalisele esitada praktikumi [courses.cs.ut](https://c
 6. $\color{blue}{\textrm{Mis on Azure Resource Group}}$
 7. $\color{blue}{\textrm{Mis on Azure Subscription}}$
 8. $\color{blue}{\textrm{Mis on Azure Resource}}$
-9. $\color{blue}{\textrm{Tehke VM loomise vaatest screenshot }}$ Näidis
+9. $\color{blue}{\textrm{Tehke VM loomise vaatest screenshot }}$ Näidis 1
 10. $\color{blue}{\textrm{Tehke kohast, kus on näidatud, et teil on Auto Shutdown enablitud kuvatõmmis}}$
 11. $\color{blue}{\textrm{Tehke enda virtuaalmasinas Settings->System->About vaatest kuvatõmmis}}$
 12. $\color{blue}{\textrm{Pange kirja 3 kasutegurit WSLi juures}}$
@@ -213,4 +213,5 @@ Vastused tuleb ikka nagu tavalisele esitada praktikumi [courses.cs.ut](https://c
 
 ## KUVATÕMMISTE NÄITED
 
+Näidis 1
 ![image](https://user-images.githubusercontent.com/21141607/196039626-da416317-6c88-48b5-b709-8e76ae112338.png)
