@@ -12,26 +12,28 @@ Tänase praktikumi teemaks on Azure keskkonnas Windows 11 virtuaalmasina loomine
 
 ## Pilveteenustest Üldiselt 
 
-Otsige Internetist arvutimaailmas laialt tuntuks saanud pilveteenuse kohta infot ja vastake oma praktikumiaruandes järgnevatele küsimustele:
+A Otsige Internetist arvutimaailmas laialt tuntuks saanud pilveteenuse kohta infot ja vastake oma praktikumiaruandes järgnevatele küsimustele:
 
-+ $\color{blue}{\textrm{Nimetage 3 kõige suuremat pilveteenuste pakkujat}}$
-+ $\color{blue}{\textrm{Nimetage 5 eelist, mis on pilveteenustel võrreldes enda teenuste füüsilistel masinatel majutamisega?}}$
-+ $\color{blue}{\textrm{Nimetage 3 situatsiooni, kus pole pilveteenuse kasutamine mõistlik?}}$
-+ $\color{blue}{\textrm{Mis on vahet IAAS ja SAAS ja PAAS tenustel?}}$
-+ $\color{blue}{\textrm{Kas teate ka mõnda Eesti ettevõtet, kes pakub pilves IAAS hostimise teenust?}}$
+1. $\color{blue}{\textrm{Nimetage 3 kõige suuremat pilveteenuste pakkujat}}$
+2. $\color{blue}{\textrm{Nimetage 5 eelist, mis on pilveteenustel võrreldes enda teenuste füüsilistel masinatel majutamisega?}}$
+3. $\color{blue}{\textrm{Nimetage 3 situatsiooni, kus pole pilveteenuse kasutamine mõistlik?}}$
+4. $\color{blue}{\textrm{Mis on vahet IAAS ja SAAS ja PAAS tenustel?}}$
+5. $\color{blue}{\textrm{Kas teate ka mõnda Eesti ettevõtet, kes pakub pilves IAAS hostimise teenust?}}$
 
 ## Azure pilveteenus
 
 
-Kasutades Internetti, vastake nendele küsimustele. **PS, tehke endale vastused korralikult selgeks, sest neid läheb teil ka ülejäänud praktikumi jooksul vaja.**
+B Kasutades Internetti, vastake nendele küsimustele. **PS, tehke endale vastused korralikult selgeks, sest neid läheb teil ka ülejäänud praktikumi jooksul vaja.**
 
-+ $\color{blue}{\textrm{Mis on Azure Resource Group}}$
-+ $\color{blue}{\textrm{Mis on Azure Subscription}}$
-+ $\color{blue}{\textrm{Mis on Azure Resource}}$
+1. $\color{blue}{\textrm{Mis on Azure Resource Group}}$
+2. $\color{blue}{\textrm{Mis on Azure Subscription}}$
+3. $\color{blue}{\textrm{Mis on Azure Resource}}$
 
 # Ülikooli kasutajaga konto loomine 
 
-+ [Link konto tegemiseks on siin olemas](https://azure.microsoft.com/en-us/free/students/)
++ [Link konto tegemiseks on siin olemas. Ärge kohe sisse logige, vaid vajutage "Start for free"](https://azure.microsoft.com/en-us/free/students/)
+![image](https://user-images.githubusercontent.com/21141607/201619093-964174ac-fb25-4c3f-8dd7-a2c6e4cfc45a.png)
+
 + Pange tähele, et te ülikooli kasutajaga peate te ainult kinnitama ära, et olete ülikooli tudeng. 
 + [Juhised inglise keeles konto tegemiseks](https://dev.to/esdanielgomez/creating-azure-for-students-account-48g)
 
@@ -61,6 +63,8 @@ Kasutades Internetti, vastake nendele küsimustele. **PS, tehke endale vastused 
 
 Virtuaalmasina loomiseks täitke ära avanenud vaade nii nagu pildil näidatud. **Asendage nimi "namm" enda perekonnanimega ilma täpitähtedeta.** 
 **Väga oluline on, et jätata ka oma lisatud parooli ja kasutajanime meelde. Teil läheb seda vaja VMi sisselogimisel**
+
++ 
 
 ![image](https://user-images.githubusercontent.com/21141607/196038492-502d97d8-3500-41d8-b334-6f9efb40c54c.png)
 ![image](https://user-images.githubusercontent.com/21141607/196038509-00914b16-91fd-4f04-bfe4-dd2c428d2be3.png)
