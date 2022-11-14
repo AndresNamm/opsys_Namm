@@ -195,26 +195,26 @@ Veenduge, et teie virtuaalmasinal oleks toodud välja "Status: Stopped (dealloca
 Vastused tuleb ikka nagu tavalisele esitada praktikumi [courses.cs.ut](https://courses.cs.ut.ee/2022/os/fall/Main/Praktikum12) lehel
 ## PILVETEENUSTE TEEMA
 
-+ $\color{blue}{\textrm{Nimetage 3 kõige suuremat pilveteenuste pakkujat}}$
-+ $\color{blue}{\textrm{Nimetage 5 eelist, mis on pilveteenustel võrreldes enda teenuste füüsilistel masinatel majutamisega?}}$
-+ $\color{blue}{\textrm{Nimetage 3 situatsiooni, kus pole pilveteenuse kasutamine mõistlik?}}$
-+ $\color{blue}{\textrm{Mis on vahet IAAS ja SAAS ja PAAS tenustel?}}$
-+ $\color{blue}{\textrm{Kas teate ka mõnda Eesti ettevõtet, kes pakub pilves IAAS hostimise teenust?}}$
-+ $\color{blue}{\textrm{Mis on Azure Resource Group}}$
-+ $\color{blue}{\textrm{Mis on Azure Subscription}}$
-+ $\color{blue}{\textrm{Mis on Azure Resource}}$
+1. $\color{blue}{\textrm{Nimetage 3 kõige suuremat pilveteenuste pakkujat}}$
+2. $\color{blue}{\textrm{Nimetage 5 eelist, mis on pilveteenustel võrreldes enda teenuste füüsilistel masinatel majutamisega?}}$
+3. $\color{blue}{\textrm{Nimetage 3 situatsiooni, kus pole pilveteenuse kasutamine mõistlik?}}$
+4. $\color{blue}{\textrm{Mis on vahet IAAS ja SAAS ja PAAS tenustel?}}$
+5. $\color{blue}{\textrm{Kas teate ka mõnda Eesti ettevõtet, kes pakub pilves IAAS hostimise teenust?}}$
+6. $\color{blue}{\textrm{Mis on Azure Resource Group}}$
+7. $\color{blue}{\textrm{Mis on Azure Subscription}}$
+8. $\color{blue}{\textrm{Mis on Azure Resource}}$
 
 ## VIRTUAALMASINA LOOMINE
 
-+ $\color{blue}{\textrm{Tehke VM loomise vaatest screenshot }}$ Näidis
+9. $\color{blue}{\textrm{Tehke VM loomise vaatest screenshot }}$ Näidis
 ![image](https://user-images.githubusercontent.com/21141607/196039626-da416317-6c88-48b5-b709-8e76ae112338.png)
 
-+ $\color{blue}{\textrm{Tehke kohast, kus on näidatud, et teil on Auto Shutdown enablitud kuvatõmmis}}$
-+ $\color{blue}{\textrm{Tehke enda virtuaalmasinas Settings->System->About vaatest kuvatõmmis}}$
+10. $\color{blue}{\textrm{Tehke kohast, kus on näidatud, et teil on Auto Shutdown enablitud kuvatõmmis}}$
+11. $\color{blue}{\textrm{Tehke enda virtuaalmasinas Settings->System->About vaatest kuvatõmmis}}$
 
 
 ## WSL
 
-+ $\color{blue}{\textrm{Pange kirja 3 kasutegurit WSLi juures}}$
-+ $\color{blue}{\textrm{Tehke kuvatõmmis sellest, kui olete listinud WSL-is enda kodukusta sisu}}$
-+ $\color{blue}{\textrm{ÜLESANNE Leidke üles minu reposse talletatud paroolid. PS! need on talletatud ainult md failidesse. }}$
+12. $\color{blue}{\textrm{Pange kirja 3 kasutegurit WSLi juures}}$
+13. $\color{blue}{\textrm{Tehke kuvatõmmis sellest, kui olete listinud WSL-is enda kodukusta sisu}}$
+14. $\color{blue}{\textrm{ÜLESANNE: Leidke üles minu reposse talletatud paroolid. PS! need on talletatud ainult md failidesse. }}$
