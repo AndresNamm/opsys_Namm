@@ -14,20 +14,20 @@ Tänase praktikumi teemaks on Azure keskkonnas Windows 11 virtuaalmasina loomine
 
 Otsige Internetist arvutimaailmas laialt tuntuks saanud pilveteenuse kohta infot ja vastake oma praktikumiaruandes järgnevatele küsimustele:
 
-+ $\color{lightblue}{\textrm{Nimetage 3 kõige suuremat pilveteenuste pakkujat}}$
-+ $\color{lightblue}{\textrm{Nimetage 5 eelist, mis on pilveteenustel võrreldes enda teenuste füüsilistel masinatel majutamisega?}}$
-+ $\color{lightblue}{\textrm{Nimetage 3 situatsiooni, kus pole pilveteenuse kasutamine mõistlik?}}$
-+ $\color{lightblue}{\textrm{Mis on vahet IAAS ja SAAS ja PAAS tenustel?}}$
-+ $\color{lightblue}{\textrm{Kas teate ka mõnda Eesti ettevõtet, kes pakub pilves IAAS hostimise teenust?}}$
++ $\color{blue}{\textrm{Nimetage 3 kõige suuremat pilveteenuste pakkujat}}$
++ $\color{blue}{\textrm{Nimetage 5 eelist, mis on pilveteenustel võrreldes enda teenuste füüsilistel masinatel majutamisega?}}$
++ $\color{blue}{\textrm{Nimetage 3 situatsiooni, kus pole pilveteenuse kasutamine mõistlik?}}$
++ $\color{blue}{\textrm{Mis on vahet IAAS ja SAAS ja PAAS tenustel?}}$
++ $\color{blue}{\textrm{Kas teate ka mõnda Eesti ettevõtet, kes pakub pilves IAAS hostimise teenust?}}$
 
 ## Azure pilveteenus
 
 
 Kasutades Internetti, vastake nendele küsimustele. **PS, tehke endale vastused korralikult selgeks, sest neid läheb teil ka ülejäänud praktikumi jooksul vaja.**
 
-+ $\color{lightblue}{\textrm{Mis on Azure Resource Group}}$
-+ $\color{lightblue}{\textrm{Mis on Azure Subscription}}$
-+ $\color{lightblue}{\textrm{Mis on Azure Resource}}$
++ $\color{blue}{\textrm{Mis on Azure Resource Group}}$
++ $\color{blue}{\textrm{Mis on Azure Subscription}}$
++ $\color{blue}{\textrm{Mis on Azure Resource}}$
 
 # Ülikooli kasutajaga konto loomine 
 
@@ -87,7 +87,7 @@ Edasi vajutage nupule "Review + create". Edasi peaks teile tekkima akna üles ro
   
   
 
-$\color{lightblue}{\textrm{Peaks avanema teie loodud VMi üldinfot tutvustav vaade. Tehke sellest kuvatõmmis }}$
+$\color{blue}{\textrm{Peaks avanema teie loodud VMi üldinfot tutvustav vaade. Tehke sellest kuvatõmmis }}$
 
 ![image](https://user-images.githubusercontent.com/21141607/196039626-da416317-6c88-48b5-b709-8e76ae112338.png)
 
@@ -95,7 +95,7 @@ $\color{lightblue}{\textrm{Peaks avanema teie loodud VMi üldinfot tutvustav vaa
 + Edasi otsige virtuaalmasina menüüst vasakult käelt üles "Auto-Shutdown" ja seadistage see "Enabled" olekusse. **Veenduga, et antud valik ka salvestuks**
 ![image](https://user-images.githubusercontent.com/21141607/196044658-ebc3bef9-66a3-450a-8981-469a6c36bdb4.png)
 
-$\color{lightblue}{\textrm{Tehke salvestatud valikust samuti kuvatõmmis}}$
+$\color{blue}{\textrm{Tehke salvestatud valikust samuti kuvatõmmis}}$
 
 
 Veenduge, et teie loodud virtuaalmasin oleks käivitatud. Kui pole, siis käivitage see. 
@@ -111,7 +111,7 @@ Veenduge, et teie loodud virtuaalmasin oleks käivitatud. Kui pole, siis käivit
    + Klõpsake alla laetud failile &lt;perenimi>-vm.rdp. Aknas peaks avanema autentimisvaade. Klõpsake seal valikul "Use a different account" ja sisestaga oma varemloodud kasutajanimi ja parool. 
 + Kui kasutate mõnda muud operatsioonisüsteemi https://learn.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients
 + Voila, olete ühendunud oma pilves asuvasse virtuaalmasinasse. 
-+ $\color{lightblue}{\textrm{Tehke enda arvutis Settings->System->About vaatest kuvatõmmis}}$
++ $\color{blue}{\textrm{Tehke enda arvutis Settings->System->About vaatest kuvatõmmis}}$
 
 # WSL-i INSTALLIMINE LOODUD VIRTUAALMASINA PEALE 
 
@@ -129,12 +129,12 @@ ls -la
 pwd
 uname -a
 ~~~
-+ $\color{lightblue}{\textrm{Tehke tulemusest Kuvatõmmis}}$
-+ $\color{lightblue}{\textrm{ Kuvage WSL-is C:\Users\perenimi-admin\Documents kausta sisu?}}$
++ $\color{blue}{\textrm{Tehke tulemusest Kuvatõmmis}}$
++ $\color{blue}{\textrm{ Kuvage WSL-is C:\Users\perenimi-admin\Documents kausta sisu?}}$
 
 
 
-Nüüd edasi [Lugege läbi postitus](https://blogs.windows.com/windowsdeveloper/2016/07/22/fun-with-the-windows-subsystem-for-linux/) ja $\color{lightblue}{\textrm{ Pange kirja 3 kasutegurit WSLi juures}}$
+Nüüd edasi [Lugege läbi postitus](https://blogs.windows.com/windowsdeveloper/2016/07/22/fun-with-the-windows-subsystem-for-linux/) ja $\color{blue}{\textrm{ Pange kirja 3 kasutegurit WSLi juures}}$
 
 
 ## SSHga Tartu ülikooli serverisse 
@@ -157,7 +157,7 @@ logiut
 Läksin puhkusele ja talletasin enda paroolid failidesse siin Giti repos https://github.com/AndresNamm/accident. Mõtlesin, et kui ma teen palju faile, siis keegi ei leia minu parooli üles. Nii juhtuski, sest ma ei mäleta, millistesse failidesse ma oma paroolid panin. Palun teilt abi. 
 
 1. Kloonige antud repo endale WSLiga kodukausta
-2.  $\color{lightblue}{\textrm{ Leidke üles minu talletatud paroolid. Ps need on talletatud ainult md failidesse. }}$
+2.  $\color{blue}{\textrm{ Leidke üles minu talletatud paroolid. Ps need on talletatud ainult md failidesse. }}$
 
 
 
