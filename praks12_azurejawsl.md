@@ -83,9 +83,7 @@ Edasi vajutaga nupule: "Next: Networking"
 Edasi vajutage nupule "Review + create". Edasi peaks teile tekkima akna üles roheline tekst "Validation passed". Kui nii on, siis vajutage sinisele nupule "Create". 
 
 + Virtuaalmasina loomine võtab aega kuskil 5-15 minutit. Võite nii kaua lugeda WSL-i kohta https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux
-
 + Minge lingile https://portal.azure.com/#home
-
 + Vajutage nupule "Resource Groups"
 + Avanenud vaates vajutage resource grupile nimega &lt;perekonnanimi>-rg
 + Vajutage oma vm-i peale
@@ -94,15 +92,15 @@ Edasi vajutage nupule "Review + create". Edasi peaks teile tekkima akna üles ro
 
 $\color{blue}{\textrm{Peaks avanema teie loodud VMi üldinfot tutvustav vaade. Tehke sellest kuvatõmmis }}$
 
-Näide - PS! mul on andtud parameetrid natuke teise
+Näide - PS! mul on andud parameetrid natuke teise
 ![image](https://user-images.githubusercontent.com/21141607/196039626-da416317-6c88-48b5-b709-8e76ae112338.png)
 
 
-+ Edasi otsige virtuaalmasina menüüst vasakult käelt üles "Auto-Shutdown" ja seadistage see "Enabled" olekusse. **Veenduga, et antud valik ka salvestuks**
-![image](https://user-images.githubusercontent.com/21141607/196044658-ebc3bef9-66a3-450a-8981-469a6c36bdb4.png)
++ Edasi otsige virtuaalmasina menüüst vasakult käelt üles "Auto-Shutdown" ja seadistage see "Enabled" olekusse. **Veenduge, et antud valik ka salvestuks.** !!PS Kui te ei saa salvestada muudatust, siis tehke browseris refresh - vajadusel mitu korda. 
+![image](https://user-images.githubusercontent.com/21141607/196044658-ebc3bef9-66a3-450a-8981-469a6c36bdb4.png) 
 
-$\color{blue}{\textrm{Tehke kohast, kus on näidatud, et teil on Auto Shutdown enablitud kuvatõmmis}}$ !PS Kui te ei saa salvestada muudatust, siis tehke browseris refresh - vajadusel mitu korda. 
 
+$\color{blue}{\textrm{Tehke kohast, kus on näidatud, et teil on Auto Shutdown enablitud kuvatõmmis}}$ 
 
 Veenduge, et teie loodud virtuaalmasin oleks käivitatud. Kui pole, siis käivitage see. 
 
