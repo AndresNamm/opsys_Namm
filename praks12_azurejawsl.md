@@ -94,13 +94,14 @@ Edasi vajutage nupule "Review + create". Edasi peaks teile tekkima akna üles ro
 
 $\color{blue}{\textrm{Peaks avanema teie loodud VMi üldinfot tutvustav vaade. Tehke sellest kuvatõmmis }}$
 
+Näide - PS! mul on andtud parameetrid natuke teise
 ![image](https://user-images.githubusercontent.com/21141607/196039626-da416317-6c88-48b5-b709-8e76ae112338.png)
 
 
 + Edasi otsige virtuaalmasina menüüst vasakult käelt üles "Auto-Shutdown" ja seadistage see "Enabled" olekusse. **Veenduga, et antud valik ka salvestuks**
 ![image](https://user-images.githubusercontent.com/21141607/196044658-ebc3bef9-66a3-450a-8981-469a6c36bdb4.png)
 
-$\color{blue}{\textrm{Tehke salvestatud valikust samuti kuvatõmmis}}$
+$\color{blue}{\textrm{Tehke kohast, kus on näidatud, et teil on Auto Shutdown enablitud kuvatõmmis}}$
 
 
 Veenduge, et teie loodud virtuaalmasin oleks käivitatud. Kui pole, siis käivitage see. 
@@ -116,7 +117,7 @@ Veenduge, et teie loodud virtuaalmasin oleks käivitatud. Kui pole, siis käivit
    + Klõpsake alla laetud failile &lt;perenimi>-vm.rdp. Aknas peaks avanema autentimisvaade. Klõpsake seal valikul "Use a different account" ja sisestaga oma varemloodud kasutajanimi ja parool. 
 + Kui kasutate mõnda muud operatsioonisüsteemi https://learn.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients
 + Voila, olete ühendunud oma pilves asuvasse virtuaalmasinasse. 
-+ $\color{blue}{\textrm{Tehke enda arvutis Settings->System->About vaatest kuvatõmmis}}$
++ $\color{blue}{\textrm{Tehke enda virtuaalmasinas Settings->System->About vaatest kuvatõmmis}}$
 
 
 # WSL
@@ -147,11 +148,7 @@ ls -la
 pwd
 uname -a
 ~~~
-+ $\color{blue}{\textrm{Tehke tulemusest Kuvatõmmis}}$
-+ $\color{blue}{\textrm{ Kuvage WSL-is  kausta sisu?}}$
-
-
-
++ $\color{blue}{\textrm{Tehke kuvatõmmis sellest, kui olete listinud WSL-is enda kodukusta sisu}}$
 
 
 ## SSHga Tartu ülikooli serverisse 
@@ -174,7 +171,7 @@ logiut
 Läksin puhkusele ja talletasin enda paroolid failidesse siin Giti repos https://github.com/AndresNamm/accident. Mõtlesin, et kui ma teen palju faile, siis keegi ei leia minu parooli üles. Nii juhtuski, sest ma ei mäleta, millistesse failidesse ma oma paroolid panin. Palun teilt abi. 
 
 1. Kloonige antud repo endale WSLiga kodukausta
-2.  $\color{blue}{\textrm{ Leidke üles minu talletatud paroolid. Ps need on talletatud ainult md failidesse. }}$
+2.  $\color{blue}{\textrm{ Leidke üles minu talletatud paroolid. PS! need on talletatud ainult md failidesse. }}$
 
 
 # VIRTUAALMASINA SULGEMINE
@@ -193,6 +190,9 @@ Veenduge, et teie virtuaalmasinal oleks toodud välja "Status: Stopped (dealloca
 
 # EELNEVAT KÜSIMUSTE KOKKUVÕTE ESITAMISEKS
 
+
+## PILVETEENUSTE TEEMA
+
 + $\color{blue}{\textrm{Nimetage 3 kõige suuremat pilveteenuste pakkujat}}$
 + $\color{blue}{\textrm{Nimetage 5 eelist, mis on pilveteenustel võrreldes enda teenuste füüsilistel masinatel majutamisega?}}$
 + $\color{blue}{\textrm{Nimetage 3 situatsiooni, kus pole pilveteenuse kasutamine mõistlik?}}$
@@ -201,12 +201,19 @@ Veenduge, et teie virtuaalmasinal oleks toodud välja "Status: Stopped (dealloca
 + $\color{blue}{\textrm{Mis on Azure Resource Group}}$
 + $\color{blue}{\textrm{Mis on Azure Subscription}}$
 + $\color{blue}{\textrm{Mis on Azure Resource}}$
-+ $\color{blue}{\textrm{Tehke oma virtuaalmasina loomise vaatest screenshot }}$
+
+## VIRTUAALMASINA LOOMINE
+
++ $\color{blue}{\textrm{Tehke VM loomise vaatest screenshot }}$ Näidis
 ![image](https://user-images.githubusercontent.com/21141607/196039626-da416317-6c88-48b5-b709-8e76ae112338.png)
 
++ $\color{blue}{\textrm{Tehke kohast, kus on näidatud, et teil on Auto Shutdown enablitud kuvatõmmis}}$
++ $\color{blue}{\textrm{Tehke enda virtuaalmasinas Settings->System->About vaatest kuvatõmmis}}$
 
 
-+ $\color{blue}{\textrm{Tehke tulemusest Kuvatõmmis}}$
-+ $\color{blue}{\textrm{ Kuvage WSL-is  kausta sisu?}}$
 
-+ $\color{blue}{\textrm{ Pange kirja 3 kasutegurit WSLi juures}}$
+## WSL
+
++ $\color{blue}{\textrm{Pange kirja 3 kasutegurit WSLi juures}}$
++ $\color{blue}{\textrm{Tehke kuvatõmmis sellest, kui olete listinud WSL-is enda kodukusta sisu}}$
++ $\color{blue}{\textrm{ ÜLESANNE Leidke üles minu reposse talletatud paroolid. PS! need on talletatud ainult md failidesse. }}$
