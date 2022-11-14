@@ -101,11 +101,10 @@ Näide - PS! mul on andtud parameetrid natuke teise
 + Edasi otsige virtuaalmasina menüüst vasakult käelt üles "Auto-Shutdown" ja seadistage see "Enabled" olekusse. **Veenduga, et antud valik ka salvestuks**
 ![image](https://user-images.githubusercontent.com/21141607/196044658-ebc3bef9-66a3-450a-8981-469a6c36bdb4.png)
 
-$\color{blue}{\textrm{Tehke kohast, kus on näidatud, et teil on Auto Shutdown enablitud kuvatõmmis}}$
+$\color{blue}{\textrm{Tehke kohast, kus on näidatud, et teil on Auto Shutdown enablitud kuvatõmmis}}$ !PS Kui te ei saa salvestada muudatust, siis tehke browseris refresh - vajadusel mitu korda. 
 
 
 Veenduge, et teie loodud virtuaalmasin oleks käivitatud. Kui pole, siis käivitage see. 
-
 
 
 # VIRTUAALMASINAGA ÜHENDUMINE
@@ -114,7 +113,7 @@ Veenduge, et teie loodud virtuaalmasin oleks käivitatud. Kui pole, siis käivit
 + Avaneb uus aken. Vajutage seal nupule "Download RDP File". Teile laetakse alla fail &lt;perenimi>-vm.rdp. 
 + Nüüd on teil mitu võimalust ühenduda Remote Connectioniga pilveteenuses olevasse virtuaalmasinasse. Soovitame esmalt proovida ühendumiseks teie enda host süsteemi.
 + Kui kasutate Windows 10, Windows 11 arvutit või Windows 11 lokaalselt virtuaalmasinat
-   + Klõpsake alla laetud failile &lt;perenimi>-vm.rdp. Aknas peaks avanema autentimisvaade. Klõpsake seal valikul "Use a different account" ja sisestaga oma varemloodud kasutajanimi ja parool. 
+   + Klõpsake alla laetud failile &lt;perenimi>-vm.rdp. Aknas peaks avanema autentimisvaade. Klõpsake seal valikul "Use a different account" ja sisestaga oma **varemloodud kasutajanimi ja parool**  
 + Kui kasutate mõnda muud operatsioonisüsteemi https://learn.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients
 + Voila, olete ühendunud oma pilves asuvasse virtuaalmasinasse. 
 + $\color{blue}{\textrm{Tehke enda virtuaalmasinas Settings->System->About vaatest kuvatõmmis}}$
@@ -166,12 +165,18 @@ logiut
 + Et logiut, ka edaspidi teid math.ut.ee serverisse logiks, siis lisage ~/.bashrc faili lõppu aliase tekitamise käsk. 
 
 
+## WSLI AVAMISE VÕIMALUSE 
+
+Proovige läbi mitu erinevat võimalust enda remote virtuaalmasinas avada WSL
++ Avage Virtuaalmasin otsing ja kirjutage otsingusse "Ubuntu". Selle peale avaneb teile WSLi aken
++  Avage Virtuaalmasin otsing ja kirjutage otsingusse Terminal Powershelliga, klikake nüüd uue tabi avamise valikute nupule ![](img/praks12_azurejawsl.md/2022-11-14-13-14-06.png) ning valige sealt valik Ubuntu.
+
 ## ÜLESANNE
 
 Läksin puhkusele ja talletasin enda paroolid failidesse siin Giti repos https://github.com/AndresNamm/accident. Mõtlesin, et kui ma teen palju faile, siis keegi ei leia minu parooli üles. Nii juhtuski, sest ma ei mäleta, millistesse failidesse ma oma paroolid panin. Palun teilt abi. 
 
 1. Kloonige antud repo endale WSLiga kodukausta
-2.  $\color{blue}{\textrm{ Leidke üles minu talletatud paroolid. PS! need on talletatud ainult md failidesse. }}$
+2.  $\color{blue}{\textrm{Leidke üles minu talletatud paroolid. PS! need on talletatud ainult md failidesse. }}$ - Valige sealt Ubuntu. 
 
 
 # VIRTUAALMASINA SULGEMINE
@@ -179,18 +184,17 @@ Läksin puhkusele ja talletasin enda paroolid failidesse siin Giti repos https:/
 + Minge aadressile: https://portal.azure.com/#home
 + Otsige üles oma loodud virtuaalmasin  
 ![image](https://user-images.githubusercontent.com/21141607/196045001-014b9723-7dff-484f-8b60-848b11372952.png)
-
 ![image](https://user-images.githubusercontent.com/21141607/196045075-a73ccbc8-f077-49f6-aa60-e4c389f991f9.png)
 
 Veenduge, et teie virtuaalmasinal oleks toodud välja "Status: Stopped (deallocated)"
 
 
 
-[Tagasiside praktikumile](https://forms.office.com/r/S7rLfwzKe4)
+# [!!!! Tagasiside praktikumile](https://forms.office.com/r/S7rLfwzKe4)
 
 # EELNEVAT KÜSIMUSTE KOKKUVÕTE ESITAMISEKS
 
-
+Vastused tuleb ikka nagu tavalisele esitada praktikumi [courses.cs.ut](https://courses.cs.ut.ee/2022/os/fall/Main/Praktikum12) lehel
 ## PILVETEENUSTE TEEMA
 
 + $\color{blue}{\textrm{Nimetage 3 kõige suuremat pilveteenuste pakkujat}}$
@@ -211,9 +215,8 @@ Veenduge, et teie virtuaalmasinal oleks toodud välja "Status: Stopped (dealloca
 + $\color{blue}{\textrm{Tehke enda virtuaalmasinas Settings->System->About vaatest kuvatõmmis}}$
 
 
-
 ## WSL
 
 + $\color{blue}{\textrm{Pange kirja 3 kasutegurit WSLi juures}}$
 + $\color{blue}{\textrm{Tehke kuvatõmmis sellest, kui olete listinud WSL-is enda kodukusta sisu}}$
-+ $\color{blue}{\textrm{ ÜLESANNE Leidke üles minu reposse talletatud paroolid. PS! need on talletatud ainult md failidesse. }}$
++ $\color{blue}{\textrm{ÜLESANNE Leidke üles minu reposse talletatud paroolid. PS! need on talletatud ainult md failidesse. }}$
