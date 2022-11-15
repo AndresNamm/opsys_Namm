@@ -16,20 +16,20 @@ Siiamaani kasutasime VM kohalikus masinas. Nüüd tekitame olukorra, kus see on 
 
 A. Otsige Internetist arvutimaailmas laialt tuntuks saanud pilveteenuste kohta infot ja vastake oma praktikumiaruandes järgnevatele küsimustele:
 
-1. $\color{blue}{\textrm{Nimetage 3 kõige suuremat pilveteenuste pakkujat.}}$
-2. $\color{blue}{\textrm{Nimetage 5 eelist, mis on pilveteenustel võrreldes enda teenuste füüsilistel masinatel majutamisega.}}$
-3. $\color{blue}{\textrm{Nimetage 3 situatsiooni, kus pole pilveteenuse kasutamine mõistlik.}}$
-4. $\color{blue}{\textrm{Mis on vahet IAAS ja SAAS ja PAAS teenustel?}}$
-5. $\color{blue}{\textrm{Kas teate ka mõnda Eesti ettevõtet, kes pakub pilves IAAS hostimise teenust?}}$
+1. $\color{DodgerBlue}{\textrm{Nimetage 3 kõige suuremat pilveteenuste pakkujat.}}$
+2. $\color{DodgerBlue}{\textrm{Nimetage 5 eelist, mis on pilveteenustel võrreldes enda teenuste füüsilistel masinatel majutamisega.}}$
+3. $\color{DodgerBlue}{\textrm{Nimetage 3 situatsiooni, kus pole pilveteenuse kasutamine mõistlik.}}$
+4. $\color{DodgerBlue}{\textrm{Mis on vahet IAAS ja SAAS ja PAAS teenustel?}}$
+5. $\color{DodgerBlue}{\textrm{Kas teate ka mõnda Eesti ettevõtet, kes pakub pilves IAAS hostimise teenust?}}$
 
 ## Azure pilveteenus
 
 
 B. Kasutades Internetti, vastake nendele küsimustele. **PS, tehke endale vastused korralikult selgeks, sest neid läheb teil ka ülejäänud praktikumi jooksul vaja.**
 
-1. $\color{blue}{\textrm{Mis on Azure Resource Group?}}$
-2. $\color{blue}{\textrm{Mis on Azure Subscription?}}$
-3. $\color{blue}{\textrm{Mis on Azure Resource?}}$
+1. $\color{DodgerBlue}{\textrm{Mis on Azure Resource Group?}}$
+2. $\color{DodgerBlue}{\textrm{Mis on Azure Subscription?}}$
+3. $\color{DodgerBlue}{\textrm{Mis on Azure Resource?}}$
 
 # Ülikooli kasutajaga konto loomine 
 
@@ -90,7 +90,7 @@ Edasi vajutage nupule "Review + create". Edasi peaks teile tekkima akna üles ro
   
   
 
-$\color{blue}{\textrm{Peaks avanema teie loodud VMi üldinfot tutvustav vaade. Tehke sellest kuvatõmmis.}}$
+$\color{DodgerBlue}{\textrm{Peaks avanema teie loodud VMi üldinfot tutvustav vaade. Tehke sellest kuvatõmmis.}}$
 
 Näide - PS! mul on andud parameetrid natuke teised.
 ![image](https://user-images.githubusercontent.com/21141607/196039626-da416317-6c88-48b5-b709-8e76ae112338.png)
@@ -100,7 +100,7 @@ Näide - PS! mul on andud parameetrid natuke teised.
 ![image](https://user-images.githubusercontent.com/21141607/196044658-ebc3bef9-66a3-450a-8981-469a6c36bdb4.png) 
 
 
-$\color{blue}{\textrm{Tehke kuvatõmmis kohast, kus on näidatud, et teil on Auto Shutdown enablitud.}}$ 
+$\color{DodgerBlue}{\textrm{Tehke kuvatõmmis kohast, kus on näidatud, et teil on Auto Shutdown enablitud.}}$ 
 
 Veenduge, et teie loodud virtuaalmasin oleks käivitatud. Kui pole, siis käivitage see. 
 
@@ -114,7 +114,7 @@ Veenduge, et teie loodud virtuaalmasin oleks käivitatud. Kui pole, siis käivit
    + Klõpsake alla laetud failile &lt;perenimi>-vm.rdp. Aknas peaks avanema autentimisvaade. Klõpsake seal valikul "Use a different account" ja sisestaga oma **VMile loodud kasutajanimi ja parool**  Seda RDP faili saab kasutada Remote VMiga ühendamiseks kuni VMi ip muutub. 
 + Kui kasutate mõnda muud operatsioonisüsteemi: https://learn.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients.
 + Voila, olete ühendunud oma pilves asuvasse virtuaalmasinasse. 
-+ $\color{blue}{\textrm{Tehke enda virtuaalmasinas Settings->System->About vaatest kuvatõmmis.}}$
++ $\color{DodgerBlue}{\textrm{Tehke enda virtuaalmasinas Settings->System->About vaatest kuvatõmmis.}}$
 
 
 # WSL
@@ -123,7 +123,7 @@ Veenduge, et teie loodud virtuaalmasin oleks käivitatud. Kui pole, siis käivit
 
 Tänase praktikumi üheks teemaks on ka WSLi (Windows Substystem For Linux) installimine Azure pilve loodud virtuaalmasinasse.  WSL pakub teile võimalust Windowsi keskkonnas seada üles täisfunktsionaalsusega Linuxi terminal vastavalt teie soovile kas Ubuntu, Debiani või mingi muu distroga.
 
-Esmalt [Lugege läbi WSLi teemaline postitus](https://blogs.windows.com/windowsdeveloper/2016/07/22/fun-with-the-windows-subsystem-for-linux/) ja $\color{blue}{\textrm{ Pange kirja 3 kasutegurit WSLi juures.}}$
+Esmalt [Lugege läbi WSLi teemaline postitus](https://blogs.windows.com/windowsdeveloper/2016/07/22/fun-with-the-windows-subsystem-for-linux/) ja $\color{DodgerBlue}{\textrm{ Pange kirja 3 kasutegurit WSLi juures.}}$
 
 
 
@@ -152,7 +152,7 @@ ls -la
 pwd
 uname -a
 ~~~
-+ $\color{blue}{\textrm{Tehke kuvatõmmis sellest, kui olete listinud WSLis enda kodukausta sisu.}}$
++ $\color{DodgerBlue}{\textrm{Tehke kuvatõmmis sellest, kui olete listinud WSLis enda kodukausta sisu.}}$
 
 
 ## SSHga Tartu ülikooli serverisse 
@@ -176,7 +176,7 @@ logiut
 Läksin puhkusele ja talletasin enda paroolid failidesse siin Giti repos https://github.com/AndresNamm/accident. Mõtlesin, et kui ma teen palju faile, siis keegi ei leia minu parooli üles. Nii juhtuski, sest ma ei mäleta, millistesse failidesse ma oma paroolid panin. Palun teilt abi. 
 
 1. Kloonige antud repo endale WSLiga kodukausta.
-2. $\color{blue}{\textrm{Tehke valmis WSLi skript, mis leiab üles minu talletatud paroolid. PS! need on talletatud ainult md failidesse. }}$ 
+2. $\color{DodgerBlue}{\textrm{Tehke valmis WSLi skript, mis leiab üles minu talletatud paroolid. PS! need on talletatud ainult md failidesse. }}$ 
 
 
 # VIRTUAALMASINA SULGEMINE
@@ -198,20 +198,20 @@ Lahendused tuleb ikka nagu tavaliselt esitada praktikumi [courses.cs.ut](https:/
 
 ## KÜSIMUSED
 
-1. $\color{blue}{\textrm{Nimetage 3 kõige suuremat pilveteenuste pakkujat.}}$
-2. $\color{blue}{\textrm{Nimetage 5 eelist, mis on pilveteenustel võrreldes enda teenuste füüsilistel masinatel majutamisega.}}$
-3. $\color{blue}{\textrm{Nimetage 3 situatsiooni, kus pole pilveteenuse kasutamine mõistlik.}}$
-4. $\color{blue}{\textrm{Mis on vahet IAAS ja SAAS ja PAAS teenustel?}}$
-5. $\color{blue}{\textrm{Kas teate ka mõnda Eesti ettevõtet, kes pakub pilves IAAS hostimise teenust?}}$
-6. $\color{blue}{\textrm{Mis on Azure Resource Group?}}$
-7. $\color{blue}{\textrm{Mis on Azure Subscription?}}$
-8. $\color{blue}{\textrm{Mis on Azure Resource?}}$
-9. $\color{blue}{\textrm{Tehke VM loomise vaatest screenshot.}}$ Näidis 1
-10. $\color{blue}{\textrm{Tehke kuvatõmmis kohast, kus on näidatud, et teil on Auto Shutdown enablitud.}}$
-11. $\color{blue}{\textrm{Tehke enda virtuaalmasinas Settings->System->About vaatest kuvatõmmis.}}$
-12. $\color{blue}{\textrm{Pange kirja 3 kasutegurit WSLi juures.}}$
-13. $\color{blue}{\textrm{Tehke kuvatõmmis sellest, kui olete listinud WSLis enda kodukausta sisu.}}$
-14. $\color{blue}{\textrm{Tehke valmis WSLi skript, mis leiab üles minu talletatud paroolid. PS! need on talletatud ainult md failidesse.}}$ 
+1. $\color{DodgerBlue}{\textrm{Nimetage 3 kõige suuremat pilveteenuste pakkujat.}}$
+2. $\color{DodgerBlue}{\textrm{Nimetage 5 eelist, mis on pilveteenustel võrreldes enda teenuste füüsilistel masinatel majutamisega.}}$
+3. $\color{DodgerBlue}{\textrm{Nimetage 3 situatsiooni, kus pole pilveteenuse kasutamine mõistlik.}}$
+4. $\color{DodgerBlue}{\textrm{Mis on vahet IAAS ja SAAS ja PAAS teenustel?}}$
+5. $\color{DodgerBlue}{\textrm{Kas teate ka mõnda Eesti ettevõtet, kes pakub pilves IAAS hostimise teenust?}}$
+6. $\color{DodgerBlue}{\textrm{Mis on Azure Resource Group?}}$
+7. $\color{DodgerBlue}{\textrm{Mis on Azure Subscription?}}$
+8. $\color{DodgerBlue}{\textrm{Mis on Azure Resource?}}$
+9. $\color{DodgerBlue}{\textrm{Tehke VM loomise vaatest screenshot.}}$ Näidis 1
+10. $\color{DodgerBlue}{\textrm{Tehke kuvatõmmis kohast, kus on näidatud, et teil on Auto Shutdown enablitud.}}$
+11. $\color{DodgerBlue}{\textrm{Tehke enda virtuaalmasinas Settings->System->About vaatest kuvatõmmis.}}$
+12. $\color{DodgerBlue}{\textrm{Pange kirja 3 kasutegurit WSLi juures.}}$
+13. $\color{DodgerBlue}{\textrm{Tehke kuvatõmmis sellest, kui olete listinud WSLis enda kodukausta sisu.}}$
+14. $\color{DodgerBlue}{\textrm{Tehke valmis WSLi skript, mis leiab üles minu talletatud paroolid. PS! need on talletatud ainult md failidesse.}}$ 
 
 ## KUVATÕMMISTE NÄITED
 
