@@ -262,6 +262,27 @@ code .
 7. Edasi tuleb teil Azure portalis üles leida tekkinud Dockeri konteiner ja sellest Screenshot teha nagu praegune näide näitab
 8. Tehke screenshot jooksnud GO programmist koos terminaliga
  
+# SCREENSHOTID
+
+
+
+## 2
+
+![](img/praks13_dockerwsl.md/2022-11-20-17-26-44.png)
+## 3 
+
+![image](https://user-images.githubusercontent.com/21141607/199090984-6bba50ea-3b91-46aa-babd-38b71c15b72c.png)
+
+## 5
+
+![](img/praks13_dockerwsl.md/2022-11-20-17-17-47.png)
+## 7 
+
+![image](https://user-images.githubusercontent.com/21141607/199810779-70615428-8048-435e-ad1b-11992acad83f.png)
+
+## 8 
+
+![](img/praks13_dockerwsl.md/2022-11-20-17-15-39.png)
 
 # LISATEEMAD 
 
