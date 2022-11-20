@@ -284,6 +284,8 @@ code .
 
 ![](img/praks13_dockerwsl.md/2022-11-20-17-15-39.png)
 
+# [!!!! Tagasiside praktikumile](https://forms.office.com/r/S7rLfwzKe4)
+
 # LISATEEMAD 
 
 Kui teile antud teema huvi pakkus, siis soovitame googeldada ka selliste teemade kohta:
