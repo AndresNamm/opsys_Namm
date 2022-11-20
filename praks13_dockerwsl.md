@@ -5,25 +5,12 @@ Olete kunagi teinud serveris mingeid muudatusi nii, et nendest muudatustest enam
 
 Tänase praktikumi teema on Docker, Visual Studio Code, Visual Studio Code devcontainers, ja Azures Container Instances. 
 
++ **Esmalt ühenduge jälle oma eelnevas praktikumis loodud virtuaalmasinaga Azure Pilvekeskkonnas. Kõik edasised sammud toimuvad seal.**  Omal vastutusel võite proovida antud praktikumi ka enda arvutis läbi teha, kuid seal on raske garanteerida, et teil kõik asjad töötavad nii nagu meil. Selleks peate te endale te ka ise WSL-i üles seadma. Selleks võite abi saada eelmise praktikumi materjalidest.  
 
 
-# SAMMUDE LOETELU 
+# INSTALLIME VSCODE 
 
-
-1. Installime Visual Studio Code ja Docker Desktopi
-2. Testime Dockerit
-3. Loome oma Custom Dockeri image 
-5. Testime Azure Container Instanceid
-6. Proovime VSCode Devcontainereid
-
-
-
-# INSTALLIMINE 
-
-## VSCODE 
-
-
-### WINDOWS
+## WINDOWS
 
 + [Lae alla ja installi vscode Windowsis](https://code.visualstudio.com/)
 
@@ -32,7 +19,6 @@ Tänase praktikumi teema on Docker, Visual Studio Code, Visual Studio Code devco
 + [Installige endale Visual Studio Code Remote Development Extension Pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)
 
 ![image](https://user-images.githubusercontent.com/21141607/199813413-330e585c-ec9c-4744-bcda-dd1f6316de94.png)
-
 
 
 ### WSL 
@@ -48,12 +34,15 @@ code .
 + Nüüd peaks avanema vscode aken. Võite selle akna sulgeda. 
 + Edaspidi saate samamoodi vscode avada. 
 
-## DOCKER 
+# DOCKER 
+
 
 + [Installida Docker desktop antud juhendi järgi](https://docs.docker.com/desktop/install/windows-install/)
 + Vaadake, et mõlemad linnukesed oleksid tehtud nagu alloleval pildil. **Eriti oluline on WSLi puudutav osa**
 ![image](https://user-images.githubusercontent.com/21141607/199082608-c1d0aca8-67ec-4394-8a2b-ae3f56344f86.png)
 + Käivitage Docker 
++ Googeldage natuke Dockeri kohta lisainfot ning proovige endale selgeks teha põhiinfo Dockeri kohta. Näiteks lugege läbi [see tutorial](https://www.guru99.com/docker-tutorial.html)
++ $\color{DodgerBlue}{\textrm{Defineerige, mis on Dockerfile, Docker image, Docker container. Mis on neil vahet?}}$
 
 
 # TESTIME DOCKERIT 
@@ -73,23 +62,19 @@ docker run -d -p 80:80 docker/getting-started
 docker ps
 ~~~
 ![image](https://user-images.githubusercontent.com/21141607/199088747-d6e543f0-e2fe-4838-a966-b27d96374002.png)
-+ $\color{lightblue}{\textrm{Tehk screenshot oma käsu väljundist, nii, et oleks näha teie kasutajanimi}}$
-+ Kontrollige oma alla laetu dockeri imagei'd 
++ $\color{DodgerBlue}{\textrm{Tehke screenshot docker ps väljundist, nii, et oleks näha teie kasutajanimi}}$
++ Kontrollige oma alla laetud dockeri imagei'd 
 ~~~sh
 docker images
 ~~~
 
-
-+ Edasi Minge aadressile http://localhost/tutorial/
-+ Järgige nüüd sealt avanenud tutorialit
++ Edasi Minge aadressile http://localhost/tutorial/ Seal asub teie käivitatu Docker image
++ Järgige nüüd sealt avanenud tutorialit ning tehke läbi tutoriali osad "Getting Started","Our Application","Sharing our app", "Persisting our DB"
 
 ## DOCKERI TUTORIALI TÄPSUSTAVAD SAMMUD 
 
-## Getting Started
 
-+ $\color{lightblue}{\textrm{Defineerige, mis on Dockerfile, Docker image, Docker container}}$
-
-## Our Application
+### Our Application
 
 + Laadige alla zip fail. 
 ![image](https://user-images.githubusercontent.com/21141607/199086224-ad1b694b-d794-4238-a28c-187a3c2f8f01.png)
@@ -105,42 +90,33 @@ code .
 + Avage terminal vscode aknas: Terminal -> New Terminal. Nagu näete, on WSL avanenud ka vscode sees.
 + Edasi järgige tutorialit nii nagu juhises kirjas. Tehke lõpuni sammud "Getting Started", "Our Application" ja "Updating our APP", "Sharing our App" ja "Persisting data". Soovitame soojalt teha läbi ka järgmised sammud, aga see ei ole kohustuslik
 
-+ $\color{lightblue}{\textrm{Tehke enda VMist screenshot, kus on näha todo app ja terminal koos teie kasutajanimega}}$
++ $\color{DodgerBlue}{\textrm{Tehke screenshot, kus on näha todo app jooksmas teie veebibrauseris ja terminal koos teie kasutajanimega}}$
  
 
 ![image](https://user-images.githubusercontent.com/21141607/199090984-6bba50ea-3b91-46aa-babd-38b71c15b72c.png)
 
 
 
-## Sharing our app
+### Sharing our app
 
 + Kui samm "Play with Docker" ei õnnestu, siis jätke see lihtsalt vahele
-+ $\color{lightblue}{\textrm{Mis on antud sammu mõte? Mida see samm demonstreerib?}}$
++ $\color{DodgerBlue}{\textrm{Mis on "Sharing our app" sammu mõte? Mida see samm demonstreerib?}}$
 
 
-## Persisting our DB
+### Persisting our DB
 
-+ Tehke screenshot käsu 'docker volume inspect todo-db' väljundist.
++ $\color{DodgerBlue}{\textrm{Tehke screenshot käsu 'docker volume inspect todo-db' väljundist.}}$
 
 # AZURE CONTAINER INSTANCES
 
 + Mäletatavasti tegite endale eelmises praktikumis Azure konto. Tänases praktikumis kasutame seda jälle. 
 
-
 [Järgnevad sammud on pandud kirja selle tutoriali pinnalt. Kui kuskil jänni jääte, siis saate lisainfot juurde otsida.](https://docs.docker.com/cloud/aci-integration/)
 
-## Logige oma Azure kontole Dockeriga sisse
-
-~~~sh
-docker login azure
-~~~
-
-
-## Tekitage endale Docker kontekst
 
 + Selgitage välja oma [Ülikooli Subscription ID selle juhendi järgi](https://learn.microsoft.com/en-us/azure/azure-portal/get-subscription-tenant-id)
 + Eelnevalt tuleb teil endal resource-group luua. Kasutame selleks azure cli-d. Selleks, et seda kasutada, tuleb ta **WSLi** installida [selle juhendi järgi](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-linux?source=recommendations&pivots=apt). 
-+ Kui olete endal Azure CLI installinud, siis kõigpeale logige oma ülikooli kontoga enda Azure-sse sisse. Avaneb prompt, kus küsitakse teie parooli ja passwordi. 
++ Kui olete endal Azure CLI installinud, siis kõigpeale logige oma ülikooli kontoga enda Azure-sse sisse. Avaneb prompt, kus teil tuleb oma Azure kontoga sisse logida. 
 ~~~sh
 az login
 ~~~
@@ -154,21 +130,21 @@ az account set --subscription $AZURE_SUBSCRIPTION
 az group create --location norwayeast --name <perenimi>-ci
 ~~~
 
-
 + Logi dockeriga Azure sisse
 
 ~~~sh
 docker login azure
 ~~~
++ Peaks avanema autentimis aken. Logige seal oma Azure kontoga sisse.
 
 + Nüüd saate endal Dockeri konteksti luua. [Mis on Dockeri kontekst?](https://docs.docker.com/engine/context/working-with-contexts/)
 
++ $\color{DodgerBlue}{\textrm{ Tehke selgeks, millist Dockeri konteksti te parasjagu kasutate?}}$
 
 ~~~
-RESOURCE_GROUP=perenimi>-ci
+RESOURCE_GROUP= <perenimi>-ci
 docker context create aci --subscription-id $AZURE_SUBSCRIPTION --resource-group $RESOURCE_GROUP --location norwayeast <perenimi>-aci
 ~~~
-
 
 + Jooksuta nüüd test dockeri imaget Azure pilves 
 
@@ -178,7 +154,7 @@ docker run -p 80:80 nginx
 ~~~
 
 + See Samm võtab nüüd aega. Ärge seda praegu ära canceldage.
-+  $\color{lightblue}{\textrm{Edasi tuleb teil Azure portalis üles leida tekkinud Dockeri konteiner ja sellest Screenshot teha nagu praegune näide näitab}}$
++  $\color{DodgerBlue}{\textrm{Edasi tuleb teil Azure portalis üles leida tekkinud Dockeri konteiner ja sellest Screenshot teha nagu praegune näide näitab}}$
  
 
 ![image](https://user-images.githubusercontent.com/21141607/199810779-70615428-8048-435e-ad1b-11992acad83f.png)
@@ -191,8 +167,6 @@ docker run -p 80:80 nginx
 docker ps
 ~~~
 
-
-
 + Leidke väljundist CONTAINER ID ja 
 
 ~~~sh
@@ -200,7 +174,13 @@ docker stop <CONTAINER_ID>
 docker rm <CONTAINER_ID>
 ~~~ 
 
++ Kontrollige nüüd Azure veebiportaalist, kas Dockeri konteiner on seal ikka alles või on sealt eemaldatud?
 
+
++ Vahetage nüüd dockeri kontekst tagasi enda masina Dockeri konteksti peale  peale. 
+~~~
+docker context use <teie default docker konteks>
+~~~
 
 # VISUAL STUDIO CODE CONTAINERS
 
@@ -210,15 +190,14 @@ Selle sammu eesmärk on teha teie arenduskeskkond 100 % reprodutseeritavaks mõn
 
 1. Alati reprodutseeritav
 2. Lihtne üles seada
-4. Võimalikult sarnane produktsioonikeskkonnaga. 
+3. Võimalikult sarnane produktsioonikeskkonnaga. 
 
 
-
-
+## DEVCONTAINERI ÜLES SEADMINE
 
 + Sulgege nüüd VsCode
 + Avage uuesti Ubuntu WSL
-+ Tekitage kodukausta uus repo nimega perenimi-devcontainer
++ Tekitage kodukausta uus kaust nimega perenimi-devcontainer
 
 
 ~~~sh
@@ -226,7 +205,7 @@ cd <perenimi>-devcontainer
 code . 
 ~~~
 
- 
+
 + Avanenud vscode aknase vajutage klaviatuuril CTRL+SHIFT+P või valige View->Command Palette
 + Avanenud aknas kirjutage nagu allolevas screenshotis näidatud on
 
@@ -244,18 +223,20 @@ code .
 
 + Avage küljelt menüüs kaust ".devcontainer". Seal on ka Dockerfile, mis kirjeldab milliset arenduskeskkonda te dockeris tahata. Antud näide on GO-le suunatud. Seda on võimalik ka kohandada vastavalt vajadusele ning git-i commitida, et uus arendaja saaks endale täpselt sama arenduskeskkonna. 
 + Vajutage uuesti CTRL+SHIFT+P
-+ Valige Dev Containers: Rebuild and Reopen in Container. Kui tuleb error, et Dokcer ei jookse, siis
++ Valige Dev Containers: Rebuild and Reopen in Container. Kui tuleb error, et Docker ei jookse, siis tehke läbi allolevad sammud ja proovige uuesti
+
+1. Kontrollige, et Docker Desktop oleks käivitatud. Kui on 
+2. Tehke Docker Desktopile restart
 
 ![image](https://user-images.githubusercontent.com/21141607/199815834-bce07388-7750-4552-9955-2bbeb894403c.png)
 
-
-+ Nüüd tõmmatakse alla kõik vajalikud Dockeri imaged. Natukes aja pärast peaks avanema teil GO arenduskeskkond. 
++ Nüüd tõmmatakse alla kõik vajalikud Dockeri imaged. Natukese aja pärast peaks avanema teil GO arenduskeskkond. 
 
 + Kopeeriga endale nüüd siit GO keele näide alla https://gobyexample.com/hello-world ja tehke enda arenduskeskkonda uus fail hello-world.go ja jooksutage seda nagu näites näidatud
   
  
-+ $\color{lightblue}{\textrm{Tehke screensho jooksnud GO programmist}}$
-
++ $\color{DodgerBlue}{\textrm{Tehke screenshot jooksnud GO programmist koos terminaliga}}$
++ Kui saate sellise errori: 'hello-world.go:1:1: expected 'package', found 'EOF'', siis **mõelge**, kus võib error olla. 
 + Go installiti ainult Dockeri konteineri sisse. See on täiesti isoleeritud teie ülejäänud VMist. 
 
 
@@ -269,6 +250,28 @@ code .
 ![image](https://user-images.githubusercontent.com/21141607/199819415-df2b9cac-b2d7-4c97-936a-7d7e60650fa0.png)
 ![image](https://user-images.githubusercontent.com/21141607/199819481-3b5721a5-9628-4d84-afd6-0fe7bf60481b.png)
 
+# KÜSIMUSED
 
 
+1. Defineerige, mis on Dockerfile, Docker image, Docker container. Mis on neil vahet?
+2. Tehke screenshot docker ps käsu väljundist, nii, et oleks näha teie kasutajanimi
+3. Tehke screenshot, kus on näha todo app jooksmas teie veebibrauseris ja terminal koos teie kasutajanimega
+4. Mis on "Sharing our app" sammu mõte? Mida see samm demonstreerib??
+5. Tehke screenshot käsu 'docker volume inspect todo-db' väljundist.
+6. Tehke selgeks, millist Dockeri konteksti te parasjagu kasutate?
+7. Edasi tuleb teil Azure portalis üles leida tekkinud Dockeri konteiner ja sellest Screenshot teha nagu praegune näide näitab
+8. Tehke screenshot jooksnud GO programmist koos terminaliga
+ 
 
+# LISATEEMAD 
+
+Kui teile antud teema huvi pakkus, siis soovitame googeldada ka selliste teemade kohta:
+
++ Docker Compose
++ Docker Networking
++ Kubernetes
+  + Helm 
+  + AWS ECS
+  + Azure AKS
+  + Gcp Kubernetes
+  + DigitalOcean Kubernetest 
