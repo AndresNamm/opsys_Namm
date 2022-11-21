@@ -16,7 +16,7 @@ Tänase praktikumi teema on Docker, Visual Studio Code, Visual Studio Code devco
 
 ![image](https://user-images.githubusercontent.com/21141607/203119287-e5b1109b-d116-4e79-af72-634825a2a82c.png)
 
-+ **PS, kui see ei õnnestu, siis jätkake praktikumi sõltumata sellest selle suuruseg VM-iga, mille eelmine praktikum üles seadsite.** Siinkohal võib teil viimane samm Visual Studio Code Dev Containersi üle seadistamine ebaõnnestuda. **Seetõttu pole see samm enam kohustuslik.**
++ **PS, kui see ei õnnestu, siis võite proovida ka valikut "D4as_v4" .Kui ka see ei õnnestu, siis jätkake praktikumi sõltumata sellest selle suurusega VM-iga, mille eelmine praktikum üles seadsite.** Siinkohal võib teil viimane samm Visual Studio Code Dev Containersi üle seadistamine ebaõnnestuda. **Seetõttu pole see samm enam kohustuslik.**
 
 # ÜHENDAGE REMOTE VIRTUAALMASINAGA
 
@@ -225,29 +225,56 @@ code .
 + Avanenud aknas kirjutage nagu allolevas screenshotis näidatud on
 
 
-
 ![image](https://user-images.githubusercontent.com/21141607/199813660-7a420feb-691f-49ad-8fde-c9328906b1ac.png)
 
- 
+
+## JAVA KÄIVITAMINE 
+
++ Edasi kirjutage avanud kastikesse java
+![image](https://user-images.githubusercontent.com/21141607/203124590-e9c83336-b9af-4683-b1fe-f21f0b37e3d0.png)
+
++ Valige edasi kõik default variandid. 
+![image](https://user-images.githubusercontent.com/21141607/203124875-19ae6f2c-f5bd-4dd5-a015-a0d908de2d89.png)
+
++ Avaneb devcontainer.json fail. 
++ Avage küljelt menüüs kaust ".devcontainer". Seal on ka Dockerfile, mis kirjeldab milliset arenduskeskkonda te dockeris tahata.  Seda on võimalik ka kohandada vastavalt vajadusele ning git-i commitida, et uus arendaja saaks endale täpselt sama arenduskeskkonna. 
+
++ Vajutage uuesti CTRL+SHIFT+P
++ Valige Dev Containers: Rebuild and Reopen in Container. Kui tuleb error, et Docker ei jookse, siis tehke läbi allolevad sammud ja proovige uuesti
+
+**errori lahendamine**
+1. Kontrollige, et Docker Desktop oleks käivitatud. Kui on 
+2. Tehke Docker Desktopile restart
+![image](https://user-images.githubusercontent.com/21141607/199815834-bce07388-7750-4552-9955-2bbeb894403c.png)
+
+
+
++ Kui Rebuild and Reopen in Container samm õnnestus, siis tõmmatakse alla kõik vajalikud Dockeri imaged. Natukese aja pärast peaks avanema teil Java arenduskeskkond. 
+
++ Tehke sinna fail nimega "HelloWorld.java" ja jooksutage seda
+
+~~~java
+// Your First Program
+
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!"); 
+    }
+}
+~~~
+## GO VARIANT - POLE KOHUSTUSLIK LÄBI TEHA
+
++ Tehke uuesti läbi samm "Dev Containers: Add Dev Container Configuration Files .."
 + Avaneb menüü koos otsingukastiga. Kirjutage sinna "go" ja valig "Go devcontainers"
 ![image](https://user-images.githubusercontent.com/21141607/203035563-c7d6125d-8ffc-4f8b-90bb-0577c2ad36a2.png)
-
-
 
 + Avaneb devcontainer.json fail. 
 ![image](https://user-images.githubusercontent.com/21141607/199814509-cb136077-64a4-43de-9483-7028c66baff7.png)
 
 + Avage küljelt menüüs kaust ".devcontainer". Seal on ka Dockerfile, mis kirjeldab milliset arenduskeskkonda te dockeris tahata. Antud näide on GO-le suunatud. Seda on võimalik ka kohandada vastavalt vajadusele ning git-i commitida, et uus arendaja saaks endale täpselt sama arenduskeskkonna. 
 + Vajutage uuesti CTRL+SHIFT+P
-+ Valige Dev Containers: Rebuild and Reopen in Container. Kui tuleb error, et Docker ei jookse, siis tehke läbi allolevad sammud ja proovige uuesti
-
-1. Kontrollige, et Docker Desktop oleks käivitatud. Kui on 
-2. Tehke Docker Desktopile restart
-
-![image](https://user-images.githubusercontent.com/21141607/199815834-bce07388-7750-4552-9955-2bbeb894403c.png)
-
++ Valige Dev Containers: Rebuild and Reopen in Container.
 + Nüüd tõmmatakse alla kõik vajalikud Dockeri imaged. Natukese aja pärast peaks avanema teil GO arenduskeskkond. 
-
 + Kopeeriga endale nüüd siit GO keele näide alla https://gobyexample.com/hello-world ja tehke enda arenduskeskkonda uus fail hello-world.go ja jooksutage seda nagu näites näidatud
   
  + Kui saate sellise errori: 'hello-world.go:1:1: expected 'package', found 'EOF'', siis **mõelge**, kus võib error olla. 
