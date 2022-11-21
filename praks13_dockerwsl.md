@@ -131,7 +131,6 @@ az account set --subscription $AZURE_SUBSCRIPTION
 ~~~sh
 az group create --location norwayeast --name <perenimi>-ci
 ~~~
-
 + Logi dockeriga Azure sisse
 
 ~~~sh
@@ -177,11 +176,10 @@ docker rm <CONTAINER_ID>
 ~~~ 
 
 + Kontrollige nüüd Azure veebiportaalist, kas Dockeri konteiner on seal ikka alles või on sealt eemaldatud?
-
-
 + Vahetage nüüd dockeri kontekst tagasi enda masina Dockeri konteksti peale  peale. 
 ~~~
-docker context use <teie default docker konteks>
+docker context list
+docker context use default
 ~~~
 
 # VISUAL STUDIO CODE CONTAINERS
