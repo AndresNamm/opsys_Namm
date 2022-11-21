@@ -16,7 +16,7 @@ Tänase praktikumi teema on Docker, Visual Studio Code, Visual Studio Code devco
 
 ![image](https://user-images.githubusercontent.com/21141607/203119287-e5b1109b-d116-4e79-af72-634825a2a82c.png)
 
-+ **PS, kui see ei õnnestu, siis võite proovida ka valikut "D4as_v4" .Kui ka see ei õnnestu, siis jätkake praktikumi sõltumata sellest selle suurusega VM-iga, mille eelmine praktikum üles seadsite.** Siinkohal võib teil viimane samm Visual Studio Code Dev Containersi üle seadistamine ebaõnnestuda. **Seetõttu pole see samm enam kohustuslik.**
++ **PS, kui see ei õnnestu, siis siis jätkake praktikumi sõltumata sellest selle suurusega VM-iga, mille eelmine praktikum üles seadsite.** Siinkohal võib teil viimane samm Visual Studio Code Dev Containersi üle seadistamine ebaõnnestuda. **Seetõttu pole see samm enam kohustuslik.**
 
 # ÜHENDAGE REMOTE VIRTUAALMASINAGA
 
