@@ -53,6 +53,8 @@ code .
 docker ps
 docker images 
 ~~~
++  **PS, kui saate Got Permission Denied while trying to connect to the docker daemon...** , siis sulgege oma Ubuntu/WSL terminal ja avage see uuesti. Vajadusel tehke kogu arvutile restart. 
+
 + Nüüd sisestage käsk
 ~~~sh
 docker run -d -p 80:80 docker/getting-started
@@ -72,7 +74,6 @@ docker images
 + Järgige nüüd sealt avanenud tutorialit ning tehke läbi tutoriali osad "Getting Started","Our Application","Sharing our app", "Persisting our DB"
 
 ## DOCKERI TUTORIALI TÄPSUSTAVAD SAMMUD 
-
 
 ### Our Application
 
@@ -105,6 +106,7 @@ code .
 
 ### Persisting our DB
 
++ Selle sammu eesmärk on näidata, kuidas on võimalik mitme erineva Dockeri image vahel jagada faile jms. 
 + $\color{DodgerBlue}{\textrm{Tehke screenshot käsu 'docker volume inspect todo-db' väljundist.}}$
 
 # AZURE CONTAINER INSTANCES
