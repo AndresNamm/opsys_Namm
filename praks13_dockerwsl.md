@@ -214,8 +214,9 @@ code .
 ![image](https://user-images.githubusercontent.com/21141607/199813660-7a420feb-691f-49ad-8fde-c9328906b1ac.png)
 
  
-+ Valige From a predefined container configuration definition.. ja Show all definitions
-+ Valige menüüst "Go"
++ Avaneb menüü koos otsingukastiga. Kirjutage sinna "go" ja valig "Go devcontainers"
+![image](https://user-images.githubusercontent.com/21141607/203035563-c7d6125d-8ffc-4f8b-90bb-0577c2ad36a2.png)
+
 
 
 + Avaneb devcontainer.json fail. 
