@@ -197,7 +197,7 @@ docker context list
 docker context use default
 ~~~
 
-# VISUAL STUDIO CODE CONTAINERS
+# VISUAL STUDIO CODE DEV CONTAINERS - Pole kohustuslik
 
 
 Selle sammu eesmärk on teha teie arenduskeskkond 100 % reprodutseeritavaks mõne klikiga. Tavaliselt võtab uue ettevõtte/projektiga liitudes väga pikalt aega arenduskeskkonna üle seadmine. Visual Studio Code devcontainerid lubavad teil üles ehitada oma arenduskeskkonnad Dokcer konteineri põhjal. See tähendab, et arenduskeskkond on 
