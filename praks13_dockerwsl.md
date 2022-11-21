@@ -5,7 +5,22 @@ Olete kunagi teinud serveris mingeid muudatusi nii, et nendest muudatustest enam
 
 Tänase praktikumi teema on Docker, Visual Studio Code, Visual Studio Code devcontainers, ja Azures Container Instances. 
 
-+ **Esmalt ühendage oma eelmises praktikumis loodud Azures pilves oleva virtuaalmasinaga**. Kõik edasised sammud toimuvad seal.  Omal vastutusel võite proovida antud praktikumi ka enda arvutis läbi teha, kuid seal on raske garanteerida, et teil kõik asjad töötavad nii nagu meil. Selleks peate te endale te ka ise WSL-i üles seadma. Selleks võite abi saada eelmise praktikumi materjalidest.  
+
+# SOOVITUSLIK SAMM ENNE KUI PRAKTIKUMI ALUSTATE 
+
++ Kuna Docker ja vscode devcontainerid kasutavad üsna palju mälu, siis võtke oma Azure VM üldvaade lahti ja vajutage nupule "Size". 
+
+![image](https://user-images.githubusercontent.com/21141607/203118871-b6205cc5-20b0-47f4-b728-41c573668596.png)
+
++ Sisestage otsingusse "D4s_v3" ning valige see valik ja vajutage nupule "Resize". 
+
+![image](https://user-images.githubusercontent.com/21141607/203119287-e5b1109b-d116-4e79-af72-634825a2a82c.png)
+
++ **PS, kui see ei õnnestu, siis jätkake praktikumi sõltumata sellest selle suuruseg VM-iga, mille eelmine praktikum üles seadsite.** Siinkohal võib teil viimane samm Visual Studio Code Dev Containersi üle seadistamine ebaõnnestuda. **Seetõttu pole see samm enam kohustuslik.**
+
+# ÜHENDAGE REMOTE VIRTUAALMASINAGA
+
++ **Järgmisena ühendage oma eelmises praktikumis loodud Azures pilves oleva virtuaalmasinaga**. Kõik edasised sammud toimuvad seal.  Omal vastutusel võite proovida antud praktikumi ka enda arvutis läbi teha, kuid seal on raske garanteerida, et teil kõik asjad töötavad nii nagu meil. Selleks peate te endale te ka ise WSL-i üles seadma. Selleks võite abi saada eelmise praktikumi materjalidest.  
 
 
 # INSTALLIME VSCODE 
