@@ -262,6 +262,10 @@ class HelloWorld {
     }
 }
 ~~~
+
+![image](https://user-images.githubusercontent.com/21141607/203129134-45d73d7d-b5b6-4795-8902-82778c4adb82.png)
+
+
 ## GO VARIANT - POLE KOHUSTUSLIK LÄBI TEHA
 
 + Tehke uuesti läbi samm "Dev Containers: Add Dev Container Configuration Files .."
@@ -305,7 +309,6 @@ class HelloWorld {
 # SCREENSHOTID
 
 
-
 ## 2
 
 ![](img/praks13_dockerwsl.md/2022-11-20-17-26-44.png)
@@ -320,9 +323,7 @@ class HelloWorld {
 
 ![image](https://user-images.githubusercontent.com/21141607/199810779-70615428-8048-435e-ad1b-11992acad83f.png)
 
-## 8 
 
-![](img/praks13_dockerwsl.md/2022-11-20-17-15-39.png)
 
 # [!!!! Tagasiside praktikumile](https://forms.office.com/r/S7rLfwzKe4)
 
