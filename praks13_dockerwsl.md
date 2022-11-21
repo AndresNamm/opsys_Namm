@@ -5,7 +5,7 @@ Olete kunagi teinud serveris mingeid muudatusi nii, et nendest muudatustest enam
 
 Tänase praktikumi teema on Docker, Visual Studio Code, Visual Studio Code devcontainers, ja Azures Container Instances. 
 
-+ **Esmalt ühenduge jälle oma eelnevas praktikumis loodud virtuaalmasinaga Azure Pilvekeskkonnas. Kõik edasised sammud toimuvad seal.**  Omal vastutusel võite proovida antud praktikumi ka enda arvutis läbi teha, kuid seal on raske garanteerida, et teil kõik asjad töötavad nii nagu meil. Selleks peate te endale te ka ise WSL-i üles seadma. Selleks võite abi saada eelmise praktikumi materjalidest.  
++ **Esmalt ühendage oma eelmises praktikumis loodud Azures pilves oleva virtuaalmasinaga**. Kõik edasised sammud toimuvad seal.  Omal vastutusel võite proovida antud praktikumi ka enda arvutis läbi teha, kuid seal on raske garanteerida, et teil kõik asjad töötavad nii nagu meil. Selleks peate te endale te ka ise WSL-i üles seadma. Selleks võite abi saada eelmise praktikumi materjalidest.  
 
 
 # INSTALLIME VSCODE 
