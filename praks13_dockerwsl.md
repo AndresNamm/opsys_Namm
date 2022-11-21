@@ -235,9 +235,7 @@ code .
 
 + Kopeeriga endale nüüd siit GO keele näide alla https://gobyexample.com/hello-world ja tehke enda arenduskeskkonda uus fail hello-world.go ja jooksutage seda nagu näites näidatud
   
- 
-+ $\color{DodgerBlue}{\textrm{Tehke screenshot jooksnud GO programmist koos terminaliga}}$
-+ Kui saate sellise errori: 'hello-world.go:1:1: expected 'package', found 'EOF'', siis **mõelge**, kus võib error olla. 
+ + Kui saate sellise errori: 'hello-world.go:1:1: expected 'package', found 'EOF'', siis **mõelge**, kus võib error olla. 
 + Go installiti ainult Dockeri konteineri sisse. See on täiesti isoleeritud teie ülejäänud VMist. 
 
 
@@ -261,8 +259,7 @@ code .
 5. Tehke screenshot käsu 'docker volume inspect todo-db' väljundist.
 6. Tehke selgeks, millist Dockeri konteksti te parasjagu kasutate?
 7. Edasi tuleb teil Azure portalis üles leida tekkinud Dockeri konteiner ja sellest Screenshot teha nagu praegune näide näitab
-8. Tehke screenshot jooksnud GO programmist koos terminaliga
- 
+
 # SCREENSHOTID
 
 
